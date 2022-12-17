@@ -14,15 +14,11 @@ export async function getStaticProps() {
 
 export default function Home({ allPostsData }) {
   return (
-    <>
-      <h1 className={styles.title}>
-        Read <Link href="/posts/first-post">this page!</Link>
-      </h1>
-      <h3>Remove base path</h3>
+    <>      
       <ul>
           {allPostsData.map(({ id, date, title }) => (
             <li key={id}>
-              {title}
+              <Link href={`/posts/${id}`}>{title}</Link>
               <br />
               {id}
               <br />
