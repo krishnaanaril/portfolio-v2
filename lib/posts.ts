@@ -24,12 +24,12 @@ export function getSortedPostsData() {
         // Combine the data with the id
         return {
             id,
-            ...matterResult.data,
+            ...JSON.parse(JSON.stringify(matterResult.data)),
         };
     });
-    // Sort posts by date
+    // Sort posts by publishedAt
     return allPostsData.sort((a: any, b: any) => {
-        if (a.date < b.date) {
+        if (a.publishedAt < b.publishedAt) {
             return 1;
         } else {
             return -1;
@@ -79,6 +79,6 @@ export async function getPostData(id: string) {
     return {
         id,
         contentHtml,
-        ...matterResult.data,
+        ...JSON.parse(JSON.stringify(matterResult.data)),
     };
 }

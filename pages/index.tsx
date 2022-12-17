@@ -1,31 +1,33 @@
-import Link from 'next/link'
-import styles from '../styles/Home.module.css'
+import Link from 'next/link';
+import Layout from '../components/layout';
 import { getSortedPostsData } from '../lib/posts';
+import  getFormattedDate from '../lib/helper';
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
+  const topSixBlogs = allPostsData.slice(0, 6);
   return {
     props: {
-      allPostsData,
+      topSixBlogs,
     },
   };
 }
 
 
-export default function Home({ allPostsData }) {
+export default function Home({ topSixBlogs }) {
   return (
-    <>      
-      <ul>
-          {allPostsData.map(({ id, date, title }) => (
+    <Layout>
+      <div className="bg-gray-200 text-gray-800 dark:bg-gray-800 dark:text-gray-50">
+        <ul>
+          {topSixBlogs.map(({ id, publishedAt, title }) => (
             <li key={id}>
               <Link href={`/posts/${id}`}>{title}</Link>
               <br />
-              {id}
-              <br />
-              {date}
+              {getFormattedDate(publishedAt)}
             </li>
           ))}
         </ul>
-    </>
+      </div>
+    </Layout>
   );
 }
