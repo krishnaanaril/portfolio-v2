@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-10-31T00:00:00.000Z
 updatedAt: 2021-10-31T00:00:00.000Z
 category: learnings
-image: 'assets/banners/55'
+image: 'banners/55'
 keywords: 
   - facebook
   - pwa

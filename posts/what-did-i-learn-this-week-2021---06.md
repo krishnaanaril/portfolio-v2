@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-02-07T00:00:00.000Z
 updatedAt: 2021-02-07T00:00:00.000Z
 category: learnings
-image: 'assets/banners/13'
+image: 'banners/13'
 keywords: 
     - Politics
     - Farming

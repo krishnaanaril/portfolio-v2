@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-04-18T00:00:00.000Z
 updatedAt: 2021-04-18T00:00:00.000Z
 category: learnings
-image: 'assets/banners/26'
+image: 'banners/26'
 keywords:  
   - Git
   - Chrome   

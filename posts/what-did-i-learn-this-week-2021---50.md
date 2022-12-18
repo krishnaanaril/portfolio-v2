@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-12-12T00:00:00.000Z
 updatedAt: 2021-12-12T00:00:00.000Z
 category: learnings
-image: 'assets/banners/61'
+image: 'banners/61'
 keywords: 
   - tailwind
   - log4j

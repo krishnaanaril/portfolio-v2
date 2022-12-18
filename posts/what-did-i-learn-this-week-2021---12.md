@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-03-21T00:00:00.000Z
 updatedAt: 2021-03-21T00:00:00.000Z
 category: learnings
-image: 'assets/banners/21'
+image: 'banners/21'
 keywords:
     - dotnet
     - finance

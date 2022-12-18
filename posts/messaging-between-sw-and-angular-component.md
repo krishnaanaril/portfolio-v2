@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-05-23T00:00:00.000Z
 updatedAt: 2021-05-31T00:00:00.000Z
 category: tech
-image: 'assets/banners/32'
+image: 'banners/32'
 keywords:
     - 'Service Worker'
     - PWA

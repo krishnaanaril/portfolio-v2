@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-10-10T00:00:00.000Z
 updatedAt: 2021-10-10T00:00:00.000Z
 category: learnings
-image: 'assets/banners/52'
+image: 'banners/52'
 keywords: 
   - facebook
   - encryption

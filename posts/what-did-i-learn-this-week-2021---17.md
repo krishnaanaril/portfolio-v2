@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-04-26T00:00:00.000Z
 updatedAt: 2021-04-26T00:00:00.000Z
 category: learnings
-image: 'assets/banners/27'
+image: 'banners/27'
 keywords:  
   - Http/3
   - Covid   

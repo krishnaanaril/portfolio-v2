@@ -5,7 +5,7 @@ published: true
 publishedAt: 2022-01-09T00:00:00.000Z
 updatedAt: 2022-01-09T00:00:00.000Z
 category: learnings
-image: 'assets/banners/65'
+image: 'banners/65'
 keywords: 
   - NASM
   - Networking

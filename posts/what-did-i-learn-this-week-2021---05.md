@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-01-31T00:00:00.000Z
 updatedAt: 2021-01-10T00:00:00.000Z
 category: learnings
-image: 'assets/banners/12'
+image: 'banners/12'
 keywords: 
     - dark-patterns
     - Gandhi

@@ -5,7 +5,7 @@ published: true
 publishedAt: 2022-12-17T00:00:00.000Z
 updatedAt: 2022-12-17T00:00:00.000Z
 category: story
-image: 'assets/banners/23'
+image: 'banners/68'
 keywords:  
   - story
   - fiction

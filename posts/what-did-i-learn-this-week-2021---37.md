@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-09-12T00:00:00.000Z
 updatedAt: 2021-09-12T00:00:00.000Z
 category: learnings
-image: 'assets/banners/48'
+image: 'banners/48'
 keywords: 
   - dotnet
   - DeepFake

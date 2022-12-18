@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-12-26T00:00:00.000Z
 updatedAt: 2021-12-26T00:00:00.000Z
 category: learnings
-image: 'assets/banners/63'
+image: 'banners/63'
 keywords: 
   - Coding
   - DSP

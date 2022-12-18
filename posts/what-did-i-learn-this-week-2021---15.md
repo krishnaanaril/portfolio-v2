@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-04-11T00:00:00.000Z
 updatedAt: 2021-04-11T00:00:00.000Z
 category: learnings
-image: 'assets/banners/25'
+image: 'banners/25'
 keywords:  
     - Chrome  
 authors:

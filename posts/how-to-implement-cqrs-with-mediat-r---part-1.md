@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-02-26T00:00:00.000Z
 updatedAt: 2021-02-26T00:00:00.000Z
 category: tech
-image: 'assets/banners/16'
+image: 'banners/16'
 keywords: 
  - dotnet
  - mediatr

@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-01-03T00:00:00.000Z
 updatedAt: 2021-01-03T00:00:00.000Z
 category: learnings
-image: 'assets/banners/08'
+image: 'banners/08'
 keywords: 
     - space
     - css

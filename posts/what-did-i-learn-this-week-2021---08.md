@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-02-21T00:00:00.000Z
 updatedAt: 2021-02-21T00:00:00.000Z
 category: learnings
-image: 'assets/banners/15'
+image: 'banners/15'
 keywords: 
     - comics
     - dotnet

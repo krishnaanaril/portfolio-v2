@@ -5,7 +5,7 @@ published: true
 publishedAt: 2020-05-08T00:00:00.000Z
 updatedAt: 2020-05-08T00:00:00.000Z
 category: tech
-image: 'assets/banners/05'
+image: 'banners/05'
 keywords: 
    - git
    - rebase

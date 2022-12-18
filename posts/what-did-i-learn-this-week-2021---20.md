@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-05-16T00:00:00.000Z
 updatedAt: 2021-05-16T00:00:00.000Z
 category: learnings
-image: 'assets/banners/30'
+image: 'banners/30'
 keywords:
   - PWA
   - Couchbase

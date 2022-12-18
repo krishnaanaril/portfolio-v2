@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-12-05T00:00:00.000Z
 updatedAt: 2021-12-05T00:00:00.000Z
 category: learnings
-image: 'assets/banners/60'
+image: 'banners/60'
 keywords: 
   - web design
   - blender

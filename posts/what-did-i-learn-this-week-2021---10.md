@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-03-07T00:00:00.000Z
 updatedAt: 2021-03-07T00:00:00.000Z
 category: learnings
-image: 'assets/banners/19'
+image: 'banners/19'
 keywords:     
     - agriculture
     - physics

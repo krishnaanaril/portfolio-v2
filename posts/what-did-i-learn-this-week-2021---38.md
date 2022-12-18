@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-09-19T00:00:00.000Z
 updatedAt: 2021-09-19T00:00:00.000Z
 category: learnings
-image: 'assets/banners/49'
+image: 'banners/49'
 keywords: 
   - history
   - css

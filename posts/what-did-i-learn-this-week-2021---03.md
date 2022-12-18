@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-01-17T00:00:00.000Z
 updatedAt: 2021-01-17T00:00:00.000Z
 category: learnings
-image: 'assets/banners/10'
+image: 'banners/10'
 keywords: 
     - cloud
     - finance

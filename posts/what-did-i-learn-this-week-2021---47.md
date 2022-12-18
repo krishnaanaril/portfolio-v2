@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-11-21T00:00:00.000Z
 updatedAt: 2021-11-21T00:00:00.000Z
 category: learnings
-image: 'assets/banners/58'
+image: 'banners/58'
 keywords: 
   - deep learning
   - continers

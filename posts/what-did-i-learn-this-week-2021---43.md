@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-10-24T00:00:00.000Z
 updatedAt: 2021-10-24T00:00:00.000Z
 category: learnings
-image: 'assets/banners/54'
+image: 'banners/54'
 keywords: 
   - cloud
   - browsers

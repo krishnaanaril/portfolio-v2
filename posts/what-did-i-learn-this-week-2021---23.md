@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-06-06T00:00:00.000Z
 updatedAt: 2021-06-06T00:00:00.000Z
 category: learnings
-image: 'assets/banners/34'
+image: 'banners/34'
 keywords:  
   -   
 authors:

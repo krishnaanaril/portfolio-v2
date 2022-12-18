@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-07-11T00:00:00.000Z
 updatedAt: 2021-07-18T00:00:00.000Z
 category: learnings
-image: 'assets/banners/39'
+image: 'banners/39'
 keywords:  
   - Football
   - Comics

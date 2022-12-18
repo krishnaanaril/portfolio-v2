@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-08-01T00:00:00.000Z
 updatedAt: 2021-08-01T00:00:00.000Z
 category: learnings
-image: 'assets/banners/42'
+image: 'banners/42'
 keywords:  
   - Architecture
   - CRDT

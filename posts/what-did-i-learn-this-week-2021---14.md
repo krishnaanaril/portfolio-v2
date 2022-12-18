@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-04-04T00:00:00.000Z
 updatedAt: 2021-04-04T00:00:00.000Z
 category: learnings
-image: 'assets/banners/24'
+image: 'banners/24'
 keywords:
     - Dotnet
     - Crystal-lang

@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-05-23T00:00:00.000Z
 updatedAt: 2021-05-23T00:00:00.000Z
 category: learnings
-image: 'assets/banners/31'
+image: 'banners/31'
 keywords:  
   - UX
   - Project Starline

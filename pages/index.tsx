@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import Layout from '../components/layout';
 import { getSortedPostsData } from '../lib/posts';
 import getFormattedDate from '../lib/helper';
@@ -18,33 +19,23 @@ export default function Home({ topSixBlogs }) {
   return (
     <Layout>
       <div
-        className="flex flex-col h-screen justify-evenly bg-gray-200 text-gray-800 lg:flex-row dark:bg-gray-800 dark:text-gray-50">
+        className="flex flex-col h-[80vh] justify-evenly bg-gray-200 text-gray-800 lg:flex-row dark:bg-gray-800 dark:text-gray-50">
         <div className="flex flex-col justify-center">
           <h1 className="font-bold mx-auto text-4xl md:text-6xl slideInUp">Krishna Mohan A M</h1>
           <h2 className="mx-auto text-2xl md:text-3xl">I Code. I Sketch. I Slide tackle.</h2>
         </div>
-      </div>
-      <div>
-        <ul>
-          {topSixBlogs.map(({ id, publishedAt, title }) => (
-            <li key={id}>
-              <Link href={`/posts/${id}`}>{title}</Link>
-              <br />
-              {getFormattedDate(publishedAt)}
-            </li>
-          ))}
-        </ul>
-      </div>
+      </div>      
       <div className="bg-gray-200 text-gray-800 dark:bg-gray-800 dark:text-gray-50">
         <div className="flex flex-row">
           <h2 className="mx-auto text-2xl">Recent Blogs</h2>
         </div>
         <div className="flex flex-row flex-wrap justify-center">
           {topSixBlogs.map(({ id, title, description, publishedAt, image }) => (
-            <Link href={`/posts/${id}`} className="m-2 rounded-lg shadow-lg w-full py-5 md:w-2/5 lg:w-1/3 xl:w-1/4">
+            <Link href={`/blogs/${id}`} className="m-2 rounded-lg shadow-lg w-full py-5 md:w-2/5 lg:w-1/3 xl:w-1/4">
+              <Image src={`/${image}.png`} alt={title} className="w-full rounded-lg" quality="100" width={400} height={400}/>
               <div className="px-6 py-4">
                 <div className="text-gray-700 mt-1.5 mb-1.5 line-clamp-2 dark:text-gray-400">
-                  <p>
+                  <p className='truncate'>
                     { description }
                   </p>
                 </div>

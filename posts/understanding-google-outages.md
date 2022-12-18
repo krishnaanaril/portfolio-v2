@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-01-06T00:00:00.000Z
 updatedAt: 2020-09-02T00:00:00.000Z
 category: tech
-image: 'assets/banners/06'
+image: 'banners/06'
 keywords: 
     - google
     - outage

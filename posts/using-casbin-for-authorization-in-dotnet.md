@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-02-14T00:00:00.000Z
 updatedAt:  2021-05-14T00:00:00.000Z
 category: tech
-image: 'assets/banners/07'
+image: 'banners/07'
 keywords: 
     - casbin
     - abac

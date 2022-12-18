@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-06-13T00:00:00.000Z
 updatedAt: 2021-06-13T00:00:00.000Z
 category: learnings
-image: 'assets/banners/35'
+image: 'banners/35'
 keywords:  
   - Fighter Jets
   - Video Editing  

@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-08-15T00:00:00.000Z
 updatedAt: 2021-08-15T00:00:00.000Z
 category: learnings
-image: 'assets/banners/44'
+image: 'banners/44'
 keywords: 
   - Watches
   - Fintech

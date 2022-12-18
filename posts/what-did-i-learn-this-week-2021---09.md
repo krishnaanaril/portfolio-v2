@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-02-28T00:00:00.000Z
 updatedAt: 2021-02-28T00:00:00.000Z
 category: learnings
-image: 'assets/banners/18'
+image: 'banners/18'
 keywords: 
     - mediatr
     - seo

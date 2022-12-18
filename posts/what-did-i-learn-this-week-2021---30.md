@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-07-25T00:00:00.000Z
 updatedAt: 2021-07-25T00:00:00.000Z
 category: learnings
-image: 'assets/banners/41'
+image: 'banners/41'
 keywords:  
   - GPU
   - Art

@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-05-09T00:00:00.000Z
 updatedAt: 2021-05-09T00:00:00.000Z
 category: learnings
-image: 'assets/banners/29'
+image: 'banners/29'
 keywords:    
   - ABAC
   - Cowin Helper

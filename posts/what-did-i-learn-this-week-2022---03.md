@@ -5,7 +5,7 @@ published: true
 publishedAt: 2022-01-16T00:00:00.000Z
 updatedAt: 2022-01-16T00:00:00.000Z
 category: learnings
-image: 'assets/banners/66'
+image: 'banners/66'
 keywords: 
   - Game
   - OAuth

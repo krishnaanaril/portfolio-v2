@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-12-19T00:00:00.000Z
 updatedAt: 2021-12-19T00:00:00.000Z
 category: learnings
-image: 'assets/banners/62'
+image: 'banners/62'
 keywords: 
   - DNS
   - System design

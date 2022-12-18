@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-05-30T00:00:00.000Z
 updatedAt: 2021-05-30T00:00:00.000Z
 category: learnings
-image: 'assets/banners/33'
+image: 'banners/33'
 keywords:  
   - Firefox
   - SerenityOS

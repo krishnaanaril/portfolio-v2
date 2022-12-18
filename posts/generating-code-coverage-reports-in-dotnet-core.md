@@ -5,7 +5,7 @@ published: true
 publishedAt: 2019-07-05T00:00:00.000Z
 updatedAt: 2019-07-05T00:00:00.000Z
 category: tech
-image: 'assets/banners/04'
+image: 'banners/04'
 keywords: 
     - dotnet
 authors:

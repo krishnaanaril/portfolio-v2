@@ -5,7 +5,7 @@ published: true
 publishedAt: 2021-09-26T00:00:00.000Z
 updatedAt: 2021-09-26T00:00:00.000Z
 category: learnings
-image: 'assets/banners/50'
+image: 'banners/50'
 keywords: 
   - books
   - moire
