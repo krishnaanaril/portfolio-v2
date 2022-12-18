@@ -1,18 +1,25 @@
 import Link from 'next/link';
+import { useRouter } from "next/router";
 
 export default function Navbar() {
+    const router = useRouter();
+    const activeRouteClassNames = "p-3 cursor-pointer border-b-2 border-gray-700 dark:border-gray-300";
+    const routeClassNames = "p-3 cursor-pointer";
     return (
         <>
             <div className="bg-gray-200 text-gray-800 dark:bg-gray-800 dark:text-gray-50">
                 <section className="hidden lg:flex flex-row justify-center">
                     <nav>
                         <ul className="lg:text-xl lg:flex lg:flex-row">
-                            <li className="p-3 cursor-pointer">
+                            <li className={router.asPath == '/' ? activeRouteClassNames : routeClassNames}>
                                 <Link href={'/'}>Home</Link>
                             </li>
-                            <li className="p-3 cursor-pointer">Blog</li>
-                            <li className="p-3 cursor-pointer">Projects</li>
-                            <li className="p-3 cursor-pointer">About</li>
+                            <li className={router.asPath == '/blog' ? activeRouteClassNames : routeClassNames}>
+                            <Link href={'/blog'}>Blog</Link></li>
+                            <li className={router.asPath == '/projects' ? activeRouteClassNames : routeClassNames}>
+                            <Link href={'/projects'}>Projects</Link></li>
+                            <li className={router.asPath == '/about' ? activeRouteClassNames : routeClassNames}>
+                            <Link href={'/about'}>About</Link></li>
                         </ul>
                     </nav>
                 </section>
