@@ -15,7 +15,7 @@ export async function getStaticProps() {
 }
 
 
-export default function Home({ recentSixBlogs }) {
+export default function Home({ recentSixBlogs } : {recentSixBlogs: any}) {
   return (
     <Layout>
       <div
@@ -30,7 +30,7 @@ export default function Home({ recentSixBlogs }) {
           <h2 className="mx-auto text-2xl">Recent Blogs</h2>
         </div>
         <div className="flex flex-row flex-wrap justify-center">
-          {recentSixBlogs.map(({ id, title, description, image }) => (
+          {recentSixBlogs.map(({ id, title, description, image }: any) => (
             <Link key={id} href={`/blogs/${id}`} className="m-2 rounded-lg shadow-lg w-full py-5 md:w-2/5 lg:w-1/3 xl:w-1/4">
               <Image src={`/${image}.png`} alt={title} className="w-full rounded-lg" quality="100" width={400} height={400}/>
               <div className="px-6 py-4">

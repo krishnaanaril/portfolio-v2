@@ -1,7 +1,7 @@
 import Head from "next/head";
 import getFormattedDate from '../lib/helper';
 
-export default function BlogEn({ children, meta: pageMeta }) {
+export default function BlogEn({ children, meta: pageMeta }: {children: string, meta: any}) {
     return (
         <article className="bg-gray-200 text-gray-800 dark:bg-gray-800 dark:text-gray-50">
             <Head>
