@@ -1,12 +1,8 @@
-import Head from "next/head";
 import getFormattedDate from '../lib/helper';
 
 export default function BlogEn({ children, meta: pageMeta }: {children: string, meta: any}) {
     return (
-        <article className="bg-gray-200 text-gray-800 dark:bg-gray-800 dark:text-gray-50">
-            <Head>
-                <title>{pageMeta.title}</title>                                
-            </Head>
+        <article className="bg-gray-200 text-gray-800 dark:bg-gray-800 dark:text-gray-50">            
             <div>
                 <div aria-label="Blog tags/keywords" className="pt-8 flex flex-row justify-center">
                     {pageMeta.keywords.map((keyword: string) => (

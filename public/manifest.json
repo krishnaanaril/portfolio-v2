@@ -1,11 +1,34 @@
 {
   "name": "Krishna Mohan",
-  "short_name": "krishna",
-  "theme_color": "#000000",
+  "short_name": "KM",
+  "theme_color": "#1f2937",
   "background_color": "#fafafa",
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
+  "shortcuts": [
+    {
+      "name": "Blogs",
+      "short_name": "Blogs",
+      "description": "Blogs by Krishna Mohan A M",
+      "url": "/blogs",
+      "icons": []
+    },
+    {
+      "name": "Projects",
+      "short_name": "Projects",
+      "description": "Projects by Krishna Mohan A M",
+      "url": "/projects",
+      "icons": []
+    },
+    {
+      "name": "About",
+      "short_name": "About",
+      "description": "About Krishna Mohan A M",
+      "url": "/about",
+      "icons": []
+    }
+  ],
   "icons": [
     {
       "src": "/icons/icon-72x72.png",
