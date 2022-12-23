@@ -17,11 +17,13 @@ export default function Home({ recentSixBlogs } : {recentSixBlogs: any}) {
   return (
     <>
     <Head>
+    <title> Krishna Mohan A M | Microsoft certified full Stack Developer</title>
     <meta name="application-name" content="Krishna Mohan A M" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <meta name="apple-mobile-web-app-title" content="Krishna Mohan A M" />
     <meta name="description" content="Microsoft certified full Stack Developer, who works mainly in Angular, .NET and SQL Server" />
+    <meta name="keywords" content="Krishna Mohan, krishnaanaril, developer, engineer, angular, dotnet, sql, azure"/>      
     <meta name="format-detection" content="telephone=no" />
     <meta name="mobile-web-app-capable" content="yes" />    
     <meta name="msapplication-TileColor" content="#2B5797" />
@@ -29,6 +31,7 @@ export default function Home({ recentSixBlogs } : {recentSixBlogs: any}) {
     <meta name="theme-color" content="#1f2937" />
         
     <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/assets/icons/icon-192x192.png"></link>
     <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#5bbad5" />
     <link rel="shortcut icon" href="/favicon.ico" />   
 
