@@ -1,14 +1,11 @@
-import Layout from '../../components/layout';
 import BlogEn from '../../components/blog-en';
 import markdownToHtml, { getAllPostIds, getDocBySlug } from '../../lib/posts';
 
-export default function Post({ meta, content } : { meta: any, content: string}) {
+export default function Post({ meta, content }: { meta: any, content: string }) {
   return (
-    <Layout>
-      <BlogEn meta={meta}>
-        {content}
-      </BlogEn>      
-    </Layout>
+    <BlogEn meta={meta}>
+      {content}
+    </BlogEn>
   );
 }
 
@@ -20,7 +17,7 @@ export async function getStaticPaths() {
   };
 }
 
-export async function getStaticProps({ params } : { params: {id: string}}) {
+export async function getStaticProps({ params }: { params: { id: string } }) {
   const doc = await getDocBySlug(params.id);
   const content = await markdownToHtml(doc.content || '');
 

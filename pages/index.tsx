@@ -1,9 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import Layout from '../components/layout';
 import { getAllDocsDescending } from '../lib/posts';
-import getFormattedDate from '../lib/helper';
-import { idText } from 'typescript';
 
 export async function getStaticProps() {
   const recentSixBlogs = getAllDocsDescending().map(doc => ({id: doc.id, ...doc.meta})).slice(0, 6); 
@@ -17,7 +14,7 @@ export async function getStaticProps() {
 
 export default function Home({ recentSixBlogs } : {recentSixBlogs: any}) {
   return (
-    <Layout>
+    <>
       <div
         className="flex flex-col h-[80vh] justify-evenly bg-gray-200 text-gray-800 lg:flex-row dark:bg-gray-800 dark:text-gray-50">
         <div className="flex flex-col justify-center">
@@ -47,6 +44,6 @@ export default function Home({ recentSixBlogs } : {recentSixBlogs: any}) {
           ))}
         </div>
       </div>
-    </Layout>
+    </>
   );
 }

@@ -8,7 +8,7 @@ export default function Document() {
                     href="https://unpkg.com/prism-themes@1.6.0/themes/prism-shades-of-purple.css"
                     rel="stylesheet" />
             </Head>
-            <body className='bg-gray-200 text-gray-800 dark:bg-gray-800 dark:text-gray-50'>
+            <body className='bg-gray-200 text-gray-800 dark:bg-gray-800 dark:text-gray-50 px-5 lg:px-0'>
                 <Main />
                 <NextScript />
             </body>
