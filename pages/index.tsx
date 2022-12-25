@@ -36,17 +36,17 @@ export default function Home({ recentSixBlogs } : {recentSixBlogs: any}) {
     <link rel="shortcut icon" href="/favicon.ico" />   
 
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:url" content="https://v2.krishnamohan.dev" />
+    <meta name="twitter:url" content="https://krishnamohan.dev" />
     <meta name="twitter:title" content="Krishna Mohan A M" />
     <meta name="twitter:description" content="Microsoft certified full Stack Developer, who works mainly in Angular, .NET and SQL Server" />
-    <meta name="twitter:image" content="https://v2.krishnamohan.dev/icon-192x192.png" />
+    <meta name="twitter:image" content="https://krishnamohan.dev/icon-192x192.png" />
     <meta name="twitter:creator" content="@krishnaanaril" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Krishna Mohan A M" />
     <meta property="og:description" content="Microsoft certified full Stack Developer, who works mainly in Angular, .NET and SQL Server" />
     <meta property="og:site_name" content="Krishna Mohan A M" />
-    <meta property="og:url" content="https://v2.krishnamohan.dev" />
-    <meta property="og:image" content="https://v2.krishnamohan.dev/images/dp.jpg" />
+    <meta property="og:url" content="https://krishnamohan.dev" />
+    <meta property="og:image" content="https://krishnamohan.dev/images/dp.jpg" />
     </Head>
       <div
         className="flex flex-col h-[80vh] justify-evenly bg-gray-200 text-gray-800 lg:flex-row dark:bg-gray-800 dark:text-gray-50">
