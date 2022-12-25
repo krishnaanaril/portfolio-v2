@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Krishna Mohan A M | RSS Feed</title>
+        <link>https://krishnamohan.dev</link>
+        <description>Personal site of Krishna Mohan, who blogs about tech, football and trivia.</description>
+        <lastBuildDate>Sun, 25 Dec 2022 18:25:42 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Feed for Node.js</generator>
+        <image>
+            <title>Krishna Mohan A M | RSS Feed</title>
+            <url>https://krishnamohan.dev/logo.png</url>
+            <link>https://krishnamohan.dev</link>
+        </image>
+        <copyright>© 2021-present Krishna Mohan A M. All Rights Reserved.</copyright>
+        <item>
+            <title><![CDATA[പ്രഭാത നടത്തം]]></title>
+            <link>https://krishnamohan.dev/blog/story-morning-walk</link>
+            <guid>https://krishnamohan.dev/blog/story-morning-walk</guid>
+            <pubDate>Sat, 17 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[A short story]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What's new in Angular? -  Standalone components]]></title>
+            <link>https://krishnamohan.dev/blog/angular-15</link>
+            <guid>https://krishnamohan.dev/blog/angular-15</guid>
+            <pubDate>Tue, 22 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Last week Angular team released v15 of the framework which is a major release with a lot of new features. Among that, standalone components are out of developer preview and is stable now. It is also accompanied by a set of new standalone APIs to enhance the development.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2022) - 03]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2022---03</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2022---03</guid>
+            <pubDate>Sun, 16 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the third week of January 2022]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2022) - 02]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2022---02</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2022---02</guid>
+            <pubDate>Sun, 09 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the second week of January 2022]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2022) - 01]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2022---01</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2022---01</guid>
+            <pubDate>Sun, 02 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the first week of January 2022]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 52]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---52</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---52</guid>
+            <pubDate>Sun, 26 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the final week of December 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 51]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---51</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---51</guid>
+            <pubDate>Sun, 19 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the third week of December 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 50]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---50</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---50</guid>
+            <pubDate>Sun, 12 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the second week of December 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 49]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---49</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---49</guid>
+            <pubDate>Sun, 05 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the first week of December 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 48]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---48</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---48</guid>
+            <pubDate>Sun, 28 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the final week of November 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 47]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---47</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---47</guid>
+            <pubDate>Sun, 21 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the third week of November 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 46]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---46</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---46</guid>
+            <pubDate>Sun, 14 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the second week of November 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 45]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---45</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---45</guid>
+            <pubDate>Sun, 07 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the first week of November 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 44]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---44</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---44</guid>
+            <pubDate>Sun, 31 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the fifth week of October 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 43]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---43</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---43</guid>
+            <pubDate>Sun, 24 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the fourth week of October 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 42]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---42</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---42</guid>
+            <pubDate>Sun, 17 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the third week of October 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 41]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---41</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---41</guid>
+            <pubDate>Sun, 10 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the second week of October 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 40]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---40</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---40</guid>
+            <pubDate>Sun, 03 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the first week of October 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 39]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---39</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---39</guid>
+            <pubDate>Sun, 26 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the final week of September 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 38]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---38</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---38</guid>
+            <pubDate>Sun, 19 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the third week of September 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 37]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---37</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---37</guid>
+            <pubDate>Sun, 12 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the second week of September 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 36]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---36</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---36</guid>
+            <pubDate>Sun, 05 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the first week of September 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 35]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---35</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---35</guid>
+            <pubDate>Sun, 29 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the final week of August 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 34]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---34</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---34</guid>
+            <pubDate>Sun, 22 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the third week of August 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 33]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---33</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---33</guid>
+            <pubDate>Sun, 15 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the second week of August 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 32]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---32</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---32</guid>
+            <pubDate>Sun, 08 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the first week of August 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 31]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---31</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---31</guid>
+            <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the final week of July 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 30]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---30</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---30</guid>
+            <pubDate>Sun, 25 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the fourth week of July 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 29]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---29</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---29</guid>
+            <pubDate>Sun, 18 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the third week of July 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 28]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---28</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---28</guid>
+            <pubDate>Sun, 11 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the second week of July 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 27]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---27</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---27</guid>
+            <pubDate>Sun, 04 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the first week of July 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 26]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---26</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---26</guid>
+            <pubDate>Sun, 27 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the final week of June 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 25]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---25</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---25</guid>
+            <pubDate>Sun, 20 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the third week of June 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 24]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---24</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---24</guid>
+            <pubDate>Sun, 13 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the second week of June 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 23]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---23</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---23</guid>
+            <pubDate>Sun, 06 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the first week of June 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 22]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---22</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---22</guid>
+            <pubDate>Sun, 30 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the final week of May 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Messaging between Service Worker and Angular component]]></title>
+            <link>https://krishnamohan.dev/blog/messaging-between-sw-and-angular-component</link>
+            <guid>https://krishnamohan.dev/blog/messaging-between-sw-and-angular-component</guid>
+            <pubDate>Sun, 23 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Most of the time service worker logic and application logic work in isolation, but there will be cases where we need to do pass messages between them. In this post we’ll see how we can do this in an angular application.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 21]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---21</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---21</guid>
+            <pubDate>Sun, 23 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the fourth week of May 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 20]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---20</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---20</guid>
+            <pubDate>Sun, 16 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the third week of May 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 19]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---19</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---19</guid>
+            <pubDate>Sun, 09 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the second week of May 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 18]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---18</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---18</guid>
+            <pubDate>Sun, 02 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the first week of May 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 17]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---17</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---17</guid>
+            <pubDate>Mon, 26 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the final week of April 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 16]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---16</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---16</guid>
+            <pubDate>Sun, 18 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the third week of April 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 15]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---15</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---15</guid>
+            <pubDate>Sun, 11 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the second week of April 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 14]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---14</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---14</guid>
+            <pubDate>Sun, 04 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the first week of April 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Rejections]]></title>
+            <link>https://krishnamohan.dev/blog/rejections</link>
+            <guid>https://krishnamohan.dev/blog/rejections</guid>
+            <pubDate>Sun, 28 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is not a feel bad list, but just to remind myself that whatever happens life must go on.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 13]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---13</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---13</guid>
+            <pubDate>Sun, 28 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the final week of March 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 12]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---12</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---12</guid>
+            <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the third week of March 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 11]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---11</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---11</guid>
+            <pubDate>Sun, 14 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the second week of March 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 10]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---10</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---10</guid>
+            <pubDate>Sun, 07 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the first week of March 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 09]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---09</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---09</guid>
+            <pubDate>Sun, 28 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the final week of February 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How to implement CQRS with MediatR - Part 2]]></title>
+            <link>https://krishnamohan.dev/blog/how-to-implement-cqrs-with-mediat-r---part-2</link>
+            <guid>https://krishnamohan.dev/blog/how-to-implement-cqrs-with-mediat-r---part-2</guid>
+            <pubDate>Sat, 27 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[This post is about implementing mediator pattern in a dotnet WebAPI using MediatR library.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How to implement CQRS with MediatR - Part 1]]></title>
+            <link>https://krishnamohan.dev/blog/how-to-implement-cqrs-with-mediat-r---part-1</link>
+            <guid>https://krishnamohan.dev/blog/how-to-implement-cqrs-with-mediat-r---part-1</guid>
+            <pubDate>Fri, 26 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[This post is about implementing mediator pattern in a dotnet console application using MediatR library.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 08]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---08</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---08</guid>
+            <pubDate>Sun, 21 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the third week of February 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Using Casbin for authorization in dotnet]]></title>
+            <link>https://krishnamohan.dev/blog/using-casbin-for-authorization-in-dotnet</link>
+            <guid>https://krishnamohan.dev/blog/using-casbin-for-authorization-in-dotnet</guid>
+            <pubDate>Sun, 14 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Casbin is a powerful and efficient open-source access control library. It provides support for enforcing authorization based on various access control models. Here I'll be sharing my thoughts on Casbin.NET, an authorization library for dotnet.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 07]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---07</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---07</guid>
+            <pubDate>Sun, 14 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the second week of February 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 06]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---06</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---06</guid>
+            <pubDate>Sun, 07 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the first week of February 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week 2021 - 05]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---05</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---05</guid>
+            <pubDate>Sun, 31 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the final week of January 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 04]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---04</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---04</guid>
+            <pubDate>Sun, 24 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the fourth week of January 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 03]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---03</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---03</guid>
+            <pubDate>Sun, 17 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the third week of January 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 02]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---02</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---02</guid>
+            <pubDate>Sun, 10 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarisation and review of things I've learned in the second week of January 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Understanding Google Outages on December 14, 2020]]></title>
+            <link>https://krishnamohan.dev/blog/understanding-google-outages</link>
+            <guid>https://krishnamohan.dev/blog/understanding-google-outages</guid>
+            <pubDate>Wed, 06 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[An overview of two major outages happened on 14th December, 2020. This is not an authoritative analysis but can be considered as notes regarding the aforesaid incidents.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What did I learn this week (2021) - 01]]></title>
+            <link>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---01</link>
+            <guid>https://krishnamohan.dev/blog/what-did-i-learn-this-week-2021---01</guid>
+            <pubDate>Sun, 03 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Weekly summarization and review of things I've learned in the first week of January 2021]]></description>
+        </item>
+        <item>
+            <title><![CDATA[File Upload - With Angular and Dotnet Core Web API]]></title>
+            <link>https://krishnamohan.dev/blog/file-upload---with-angular-and-dotnet-core-web-api</link>
+            <guid>https://krishnamohan.dev/blog/file-upload---with-angular-and-dotnet-core-web-api</guid>
+            <pubDate>Wed, 02 Sep 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Minimal implementation of file upload using Angular and dotnet core web API.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Understanding Git - Merge, Rebase & Bisect]]></title>
+            <link>https://krishnamohan.dev/blog/understanding-git</link>
+            <guid>https://krishnamohan.dev/blog/understanding-git</guid>
+            <pubDate>Fri, 08 May 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[In any git workflow, branching and merging code is unavoidable. In this post we are having a not-so deeper look at the three important git commands viz. git-merge, git-rebase and git-bisect.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Generating Code Coverage Reports in Dotnet Core]]></title>
+            <link>https://krishnamohan.dev/blog/generating-code-coverage-reports-in-dotnet-core</link>
+            <guid>https://krishnamohan.dev/blog/generating-code-coverage-reports-in-dotnet-core</guid>
+            <pubDate>Fri, 05 Jul 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Unlike other application frameworks .NET Core do not provide code coverage reports out of the box. Here I’ll be using a different approach which actually suited my web application. Without further ado, let’s get started.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Embedding Power BI in Angular — Part 2]]></title>
+            <link>https://krishnamohan.dev/blog/embedding-powerbi-in-angular-part-2</link>
+            <guid>https://krishnamohan.dev/blog/embedding-powerbi-in-angular-part-2</guid>
+            <pubDate>Tue, 16 Oct 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Power BI can be embedded for the users of your organization who have access to it. This requires the users to sign-in to their Power BI account to view their content, which are the reports they own or the ones that have been shared with them. This is the second part of the two-part article series.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Embedding Power BI in Angular — Part 1]]></title>
+            <link>https://krishnamohan.dev/blog/embedding-power-bi-in-angular-part-1</link>
+            <guid>https://krishnamohan.dev/blog/embedding-power-bi-in-angular-part-1</guid>
+            <pubDate>Mon, 15 Oct 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[Power BI is a powerful tool which helps us to create quick and interactive insights from wide range of data sources. Here we’ll be discussing about Power BI service which is a SaaS, and how to embed Power BI Dashboards, Reports and Tiles in web applications.]]></description>
+        </item>
+    </channel>
+</rss>
