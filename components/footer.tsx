@@ -7,7 +7,7 @@ export default function Footer() {
                         <a href="https://twitter.com/KrishnaAnaril">Twitter</a>
                     </li>
                     <li>
-                        <a href="https://krishnamohan.dev/sitemap-blog.xml">Sitemap</a>
+                        <a href="https://krishnamohan.dev/sitemap.xml">Sitemap</a>
                     </li>
                     <li>
                         <a href="https://krishnamohan.dev/feed.xml">RSS</a>
