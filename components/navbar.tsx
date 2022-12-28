@@ -23,7 +23,7 @@ export default function Navbar() {
                         </ul>
                     </nav>
                 </section>
-                <div className="absolute lg:hidden mr-4 p-4 right-0">
+                <div className="lg:hidden mr-4 p-4 right-0">
                     <button className="p-2" aria-label="view menu items">
                         <svg className="fill-gray-800 dark:fill-gray-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" width="24px" height="24px">
                             <path d="M0 0h24v24H0z" fill="none" />
