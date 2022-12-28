@@ -50,7 +50,7 @@ export default function Home({ recentSixBlogs }: { recentSixBlogs: any }) {
       <div
         className="flex flex-col h-[80vh] justify-evenly bg-gray-200 text-gray-800 lg:flex-row dark:bg-gray-800 dark:text-gray-50">
         <div className="flex flex-col justify-center">
-          <h1 className="font-bold mx-auto text-4xl md:text-6xl slideInUp">Krishna Mohan A M</h1>
+          <h1 className="font-bold mx-auto text-3xl md:text-4xl lg:text-6xl slideInUp">Krishna Mohan A M</h1>
           <h2 className="mx-auto text-2xl md:text-3xl">I Code. I Sketch. I Slide tackle.</h2>
         </div>
       </div>

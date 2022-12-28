@@ -3,11 +3,11 @@ import { useRouter } from "next/router";
 
 export default function Navbar() {
     const router = useRouter();
-    const activeRouteClassNames = "p-3 cursor-pointer border-b-2 border-gray-700 dark:border-gray-300";
-    const routeClassNames = "p-3 cursor-pointer";    
+    const activeRouteClassNames = "p-4 cursor-pointer border-b-2 border-gray-700 dark:border-gray-300";
+    const routeClassNames = "p-4 cursor-pointer";    
     return (
         <>
-            <nav className="sticky top-0 text-gray-800 dark:text-gray-50 backdrop-blur-lg mix-blend-multiply dark:mix-blend-color-dodge">
+            <nav className="sticky top-0 bg-gray-200 text-gray-800 dark:bg-gray-800 dark:text-gray-50 bg-opacity-50 dark:bg-opacity-50 backdrop-blur-lg">
                 <section className="hidden lg:flex flex-row justify-center">
                     <nav>
                         <ul className="lg:text-xl lg:flex lg:flex-row">
