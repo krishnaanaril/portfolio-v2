@@ -11,7 +11,30 @@ export async function getStaticProps() {
     };
 }
 
-export default function Blogs({ allBlogs }: { allBlogs: any }) {
+
+export function getAllDocsWithFilter(allDocs: any[]) {    
+
+    const api = {
+        filteredDocs: allDocs,
+        byCategory(category: any) {
+            console.log(`byCategory: ${category}`);
+            if(category?.trim()) {
+                this.filteredDocs = allDocs.filter(doc => doc.category == category);
+            }
+            return api;
+        },
+        byTag(tag: any) {
+            console.log(`byTag: ${tag}`);
+            if(tag?.trim()) {
+                this.filteredDocs = allDocs.filter(doc => doc.keywords.some((x: string) => x == tag));
+            }
+            return api;
+        }
+    };
+    return api;
+}
+
+export default function Blogs({ allBlogs }: { allBlogs: any }) {   
     return (
         <div className="container mx-auto min-h-screen bg-gray-200 text-gray-800 dark:bg-gray-800 dark:text-gray-50">
             <div className="flex flex-row flex-wrap justify-center">

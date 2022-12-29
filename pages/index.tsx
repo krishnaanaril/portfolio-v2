@@ -21,7 +21,7 @@ export default function Home({ recentSixBlogs }: { recentSixBlogs: any }) {
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="apple-mobile-web-app-title" content="Krishna Mohan A M" />
-        <meta name="description" content="Microsoft certified full Stack Developer, who works mainly in Angular, .NET and SQL Server" />
+        <meta name="description" content="Microsoft certified Full Stack Developer, who works mainly in Angular, .NET and SQL Server" />
         <meta name="keywords" content="Krishna Mohan, krishnaanaril, developer, engineer, angular, dotnet, sql, azure" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="mobile-web-app-capable" content="yes" />
@@ -42,7 +42,7 @@ export default function Home({ recentSixBlogs }: { recentSixBlogs: any }) {
         <meta name="twitter:creator" content="@krishnaanaril" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Krishna Mohan A M" />
-        <meta property="og:description" content="Microsoft certified full Stack Developer, who works mainly in Angular, .NET and SQL Server" />
+        <meta property="og:description" content="Microsoft certified Full Stack Developer, who works mainly in Angular, .NET and SQL Server" />
         <meta property="og:site_name" content="Krishna Mohan A M" />
         <meta property="og:url" content="https://krishnamohan.dev" />
         <meta property="og:image" content="https://krishnamohan.dev/images/dp.jpg" />

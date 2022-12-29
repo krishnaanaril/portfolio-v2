@@ -10,7 +10,7 @@ export default function BlogEn({ children, meta: pageMeta }: {children: string, 
                     ))}
                 </div>
                 <div className="max-w-screen-lg mx-auto">
-                    <h1 className="text-5xl pt-5 pb-5 text-center">{pageMeta.title}</h1>
+                    <h1 className="text-5xl font-bold pt-5 pb-5 text-center">{pageMeta.title}</h1>
                 </div>
                 <div className="flex flex-row justify-center m-5 max-w-screen-sm mx-auto">
                     <time className="text-center text-xl">{getFormattedDate(pageMeta.publishedAt)}</time>
