@@ -42,7 +42,7 @@ Creating dashboards/reports using Power BI are out of scope of this article, you
 
 A high level diagram showing how this works is shown below.
 
-![](assets/images/02_01.png)
+![](/images/02_01.png)
 
 The workflow is as follows.
 
@@ -80,32 +80,32 @@ npm install --save powerbi-client
 
 Now we’ve added the additional libraries for your requirement and can we start coding the the authentication service as follows.
 
-![](assets/images/02_02.png)
+![](/images/02_02.png)
 *Gist: https://gist.github.com/krishnaanaril/9a07c99efe7db86b8ede17d4177be303*
 
 We can store ‘adal’ related configuration in the environment.ts file. I’ve attached the sample format below.
 
-![](assets/images/02_03.png)
+![](/images/02_03.png)
 *Gist: https://gist.github.com/krishnaanaril/b1b8798373a6bbe42e7f288ceb9ca1a9*
 
 Once the user is authenticated, to handle callback you need to add the following code in the redirect component’s ngOnInit method.
 
-![](assets/images/02_04.png)
+![](/images/02_04.png)
 
 Here I’ve written the code to embed the first of the available reports to a user. You can update it to suit your needs. First we need to get the access token and get the first of the available reports. The code is as follows.
 
 
-![](assets/images/02_05.png)
+![](/images/02_05.png)
 *Gist: https://gist.github.com/krishnaanaril/398f8e51136e649bf35e41baf8367efe*
 
 The method ‘getReportsInGroup’ will be invoking the corresponding Power BI REST API.
 
-![](assets/images/02_06.png)
+![](/images/02_06.png)
 *Gist: https://gist.github.com/krishnaanaril/427e4ef6b171fa109787617b3c0e6953*
 
 Next, we need to embed the report in the HTML page. This is similar to ‘Embed for your customers’, except the token type which is ‘Aad’ and access token instead of embed token. Embedding report code is as follows.
 
-![Embedding report for your organization](assets/images/02_06.png)
+![Embedding report for your organization](/images/02_06.png)
 *Embedding report for your organization*
 
 ### Conclusion

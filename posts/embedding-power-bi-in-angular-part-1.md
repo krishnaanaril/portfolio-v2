@@ -56,7 +56,7 @@ Creating dashboards/reports using Power BI are out of scope of this article, you
 
 A high level diagram showing how this works is shown below.
 
-![Embedding for customers](assets/images/01_01.png)
+![Embedding for customers](/images/01_01.png)
 *Embedding for customers*
 
 The work flow is as follows.
@@ -82,13 +82,13 @@ Refer [this](https://docs.microsoft.com/en-us/power-bi/developer/embed-sample-fo
 
 If you are new to Web API’s, you can start [here](https://docs.microsoft.com/en-us/aspnet/web-api/overview/getting-started-with-aspnet-web-api/tutorial-your-first-web-api). In the Web.config file we need to add few key-value pairs. Here you need to provide your master account’s username and password.
 
-![](assets/images/01_02.png)*Gist: https://gist.github.com/krishnaanaril/fdec1fe979dd353cd04bb86474e387e3*
+![](/images/01_02.png)*Gist: https://gist.github.com/krishnaanaril/fdec1fe979dd353cd04bb86474e387e3*
 
 You’ll get ‘applicationId’, ‘workspaceId’ and ‘reportId’ during Power BI setup. Now we need to define the token objects to be returned from the methods.
 
-![](assets/images/01_03.png)*Token object for Dashboard/Reports. Gist: https://gist.github.com/krishnaanaril/5e56889f072a2606c1da0646766501dc*
+![](/images/01_03.png)*Token object for Dashboard/Reports. Gist: https://gist.github.com/krishnaanaril/5e56889f072a2606c1da0646766501dc*
 
-![](assets/images/01_04.png)*Token object for Tiles. Gist: https://gist.github.com/krishnaanaril/8d4960b06aeefa218886c959308974f6*
+![](/images/01_04.png)*Token object for Tiles. Gist: https://gist.github.com/krishnaanaril/8d4960b06aeefa218886c959308974f6*
 
 We need to add Microsoft Power BI client [library](https://www.nuget.org/packages/Microsoft.PowerBI.Api/) as we are invoking Power BI API’s from the server side code.
 
@@ -100,7 +100,7 @@ As API methods, I’ve created three methods for Reports, Dashboards and Tiles r
 
  3. **GetTileEmbedToken**— This method returns the embed token for the first tile in the first dashboard which is available in the workspace.
 
-![](assets/images/01_05.png)*API method for getting embed token. Gist: https://gist.github.com/krishnaanaril/b093ab817d8fc29e4096346e034ccf3f*
+![](/images/01_05.png)*API method for getting embed token. Gist: https://gist.github.com/krishnaanaril/b093ab817d8fc29e4096346e034ccf3f*
 
 You can extend this methods to return tokens for custom reports, dashboards and tiles.
 
@@ -108,7 +108,7 @@ You can extend this methods to return tokens for custom reports, dashboards and 
 
 Here we need to create a service to call the API we created above. For that, let’s create a service and add the following method.
 
-![](assets/images/01_06.png)*Gist: https://gist.github.com/krishnaanaril/2387fa2a7fb2746cf1b0d93c149f03a9*
+![](/images/01_06.png)*Gist: https://gist.github.com/krishnaanaril/2387fa2a7fb2746cf1b0d93c149f03a9*
 
 In the HTML page, create a ‘div’ with id ‘embedReport’. We’ll be showing report in this div. Embedding in div is done using Power BI JavaScript [library](https://github.com/Microsoft/PowerBI-JavaScript). You can add it to your angular application by running the following command.
 
@@ -118,7 +118,7 @@ npm install --save powerbi-client
 
 Next, we need to create a method in component class to embed the reports as follows.
 
-![](assets/images/01_07.png)*Gist: https://gist.github.com/krishnaanaril/412001afccf2f74d1c840e1f7fb4b7fe*
+![](/images/01_07.png)*Gist: https://gist.github.com/krishnaanaril/412001afccf2f74d1c840e1f7fb4b7fe*
 
 For embedding reports for customers, type should be ‘reports’ and token type should be ‘Embed’. Here you can see the code for ‘tokenExpirationListener’. This is added as the generated tokens are valid only for an hour and it expires after that. So we need to generate another token by that time and update it. More info can be found [here](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Refresh-token-using-JavaScript-SDK-example).
 

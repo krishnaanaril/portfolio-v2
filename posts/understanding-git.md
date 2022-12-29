@@ -24,12 +24,12 @@ Git merges can be broadly classified into two:
 
 1. **Fast Forward Merge**: If there are no changes in the target branch, then source branch is merged without an extra commit.
 
-![image](assets/images/04_02.jpeg)
+![image](/images/04_02.jpeg)
 *Fig-01*
 
 2. **True Merge**: If there are changes in source and target branch, then an extra commit is required with both of them as parents.
 
-![image](assets/images/04_01.jpeg)
+![image](/images/04_01.jpeg)
 *Fig-02*
 
 If there are conflicts in files during merge, we need to manually resolve it. Git will mark conflicts in the [working tree](https://stackoverflow.com/questions/39128500/working-tree-vs-working-directory). We should edit the files and stage them. Run `git commit` or `git merge —-continue` to complete the merge.
@@ -44,17 +44,17 @@ Want merge changes without a commit? Then use `git merge branch1 --squash`. This
 
 Rebase too helps in merging branches, but in a different way. Consider `git rebase master feature` command (short hand for `git switch feature`, `git rebase master`), here first all changes in the feature branch will be saved to a temporary area, then feature branch is reset to master branch and saved commits will be replayed one by one on top of it.
 
-![image](assets/images/04_03.jpeg)
+![image](/images/04_03.jpeg)
 *Fig-03*
 
 In case of conflict, rebasing process will be paused and we need to manually fix the conflicts. Once done you can run `git rebase --continue` to continue the process. To skip a commit, use `git rebase --skip`. In normal rebasing if the target branch contains merged commits, it will be dropped. We need to pass the option `--rebase-merges` to avoid this.
 
-![image](assets/images/04_04.jpeg)
+![image](/images/04_04.jpeg)
 *Fig-04*
 
 One of the powerful option in `git rebase` is interactive rebasing. It helps user to edit the commits, reorder or even remove them. There are 11 sub-commands that can be used with interactive rebasing, let’s see them one by one. For the purpose of explaining this consider the following branch with a linear history.
 
-![image](assets/images/04_05.jpeg)
+![image](/images/04_05.jpeg)
 *Fig-05*
 
 When i run `git rebase -i --root`, git will open text editor with commits and hints for using sub-commands. Each line will be in the following format: `sub-command commit-hash commit-message`
@@ -108,7 +108,7 @@ merge sub # This is new merge commit
 ```
 Here we are labeling commits A, C & E as ‘onto’, ‘main’ and ‘sub’ respectively. Final result will be as below. You can find another great read [here](https://stackoverflow.com/a/61103385/1520750)
 
-![image](assets/images/04_06.jpeg)
+![image](/images/04_06.jpeg)
 *Fig-06*
 
 ## Git Bisect

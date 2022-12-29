@@ -24,7 +24,7 @@ The primary language for Casbin was Go, since it was developed in Go itself. But
 
 Casbin introduces a new policy language named PERM (Policy, Effect, Request and Matcher) modeling language. If interested you can learn more about it in the author's [research paper](https://arxiv.org/abs/1903.09756).
 
-![PERM Meta Model](assets/images/PERM_MetaModel.svg)
+![PERM Meta Model](/images/PERM_MetaModel.svg)
 *PERM Meta Model*
 
 ### Request

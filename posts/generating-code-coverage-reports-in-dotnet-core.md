@@ -109,7 +109,7 @@ Eg: dotnet C:\Users\krishnamohan\.nuget\packages\reportgenerator\4.1.10\tools\ne
 
 This will generate reports in *.htm format in the given output folder. If you open the index.htm file you can view the report.
 
-![Sample Report Image](assets/images/03_01.png)*Sample Report Image. Source: https://github.com/danielpalme/ReportGenerator*
+![Sample Report Image](/images/03_01.png)*Sample Report Image. Source: https://github.com/danielpalme/ReportGenerator*
 
 ## Powershell script with all the steps
 

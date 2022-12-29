@@ -10,7 +10,7 @@ export default function Footer() {
                         <a href="https://krishnamohan.dev/sitemap.xml">Sitemap</a>
                     </li>
                     <li>
-                        <a href="https://krishnamohan.dev/feed.xml">RSS</a>
+                        <a href="https://krishnamohan.dev/rss.xml">RSS</a>
                     </li>
                     <li>
                         <a href="mailto:krishnamohan.a.m@gmail.com">Contact</a>
