@@ -16,12 +16,12 @@ export default function Home({ recentSixBlogs }: { recentSixBlogs: any }) {
   return (
     <>
       <Head>
-        <title> Krishna Mohan A M | Microsoft certified full Stack Developer</title>
+        <title> Krishna Mohan A M | Microsoft Certified Full Stack Developer</title>
         <meta name="application-name" content="Krishna Mohan A M" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="apple-mobile-web-app-title" content="Krishna Mohan A M" />
-        <meta name="description" content="Microsoft certified Full Stack Developer, who works mainly in Angular, .NET and SQL Server" />
+        <meta name="description" content="Microsoft Certified Full Stack Developer, who works mainly in Angular, .NET and SQL Server" />
         <meta name="keywords" content="Krishna Mohan, krishnaanaril, developer, engineer, angular, dotnet, sql, azure" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="mobile-web-app-capable" content="yes" />
@@ -30,22 +30,22 @@ export default function Home({ recentSixBlogs }: { recentSixBlogs: any }) {
         <meta name="theme-color" content="#1f2937" />
 
         <link rel="manifest" href="/manifest.json" />
-        <link rel="apple-touch-icon" href="/assets/icons/icon-192x192.png"></link>
+        <link rel="apple-touch-icon" href="/icons/icon-192x192.png"></link>
         <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#5bbad5" />
         <link rel="shortcut icon" href="/favicon.ico" />
 
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:url" content="https://krishnamohan.dev" />
         <meta name="twitter:title" content="Krishna Mohan A M" />
-        <meta name="twitter:description" content="Microsoft certified Full Stack Developer, who works mainly in Angular, .NET and SQL Server" />
-        <meta name="twitter:image" content="https://krishnamohan.dev/icon-192x192.png" />
+        <meta name="twitter:description" content="Microsoft Certified Full Stack Developer, who works mainly in Angular, .NET and SQL Server" />
+        <meta name="twitter:image" content="https://krishnamohan.dev/icons/icon-192x192.png" />
         <meta name="twitter:creator" content="@krishnaanaril" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Krishna Mohan A M" />
-        <meta property="og:description" content="Microsoft certified Full Stack Developer, who works mainly in Angular, .NET and SQL Server" />
+        <meta property="og:description" content="Microsoft Certified Full Stack Developer, who works mainly in Angular, .NET and SQL Server" />
         <meta property="og:site_name" content="Krishna Mohan A M" />
         <meta property="og:url" content="https://krishnamohan.dev" />
-        <meta property="og:image" content="https://krishnamohan.dev/images/dp.jpg" />
+        <meta property="og:image" content="https://krishnamohan.dev/images/dp.jpeg" />
       </Head>
       <div
         className="flex flex-col h-[80vh] justify-evenly bg-gray-200 text-gray-800 lg:flex-row dark:bg-gray-800 dark:text-gray-50">
