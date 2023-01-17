@@ -14,9 +14,9 @@ authors:
   - Krishna Mohan A M
 ---
 
-Hardware requirement are pretty challenging for most of the machine learning needs, stable diffusion is no different. Most of the SaaS offerings' (Dreamstudio, Midjourney) pricing depends on the number of images generated. My intention was totally differnt than just generating cool images, I want to play around with it and learn how it works. 
+Hardware requirement are pretty challenging for most of the machine learning needs, stable diffusion is no different. Most of the SaaS offerings' pricing (Dreamstudio, Midjourney) depends on the number of images generated. My intention was totally differnt than just generating cool images, I want to play around with it and learn how it works. 
 
-But wait, I've an Azure subscription can I make use of that? I googled around and found a [very informative blog](https://vladiliescu.net/stable-diffusion-web-ui-on-azure-ml/) to spin-off an Azure ML instance to run SD. I followed most of that blog with some tweaks for my needs. If you prefer to follow the original reference please do so.
+But wait, I've an Azure subscription. Can I make use of that? I googled around and found a [very informative blog](https://vladiliescu.net/stable-diffusion-web-ui-on-azure-ml/) to spin-off an Azure ML instance to run SD. I followed most of that blog with some tweaks for my needs. If you prefer to follow the original reference please do so.
 
 ## Prerequisites
 - Install [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) and its [ML extension](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-configure-cli?tabs=public)
