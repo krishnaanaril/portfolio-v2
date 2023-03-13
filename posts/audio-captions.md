@@ -113,3 +113,92 @@ Need to work on how to generate transcripts from audio files. As of now my under
 
 ## References
 - [Stackoverflow answer](https://stackoverflow.com/a/54663735/1520750)
+
+import { Injectable } from '@angular/core';
+import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
+import { SHA1, enc } from 'crypto-js';
+import { Observable } from 'rxjs';
+import { CategoriesResponse } from '../models/categories';
+
+const API_URL = "https://api.podcastindex.org/api/1.0";
+const API_KEY = "NELCAD7JQE4RURNRH5NQ";
+const API_SECRET = "msEKCeU3Hsd3#NTrRmnNVt5yYY^URGU$^bGGDUPM";
+
+@Injectable({
+  providedIn: 'root'
+})
+export class ApiService {
+
+  constructor(private http: HttpClient) { }
+
+  private getHttpHeaders(currentTime: number): HttpHeaders {
+    const authorizationKey = SHA1(`${API_KEY}${API_SECRET}${currentTime}`).toString(enc.Hex);
+    const httpHeaders = new HttpHeaders({
+      'X-Auth-Date': `${currentTime}`,
+      'X-Auth-Key': API_KEY,
+      'Authorization': authorizationKey
+    });
+    return httpHeaders;
+  }
+
+  public getCategories(): Observable<CategoriesResponse> {
+    const methodUrl = API_URL + "/categories/list";
+    const currentTime = new Date().getTime() / 1000;
+    const httpOptions = {
+      headers: this.getHttpHeaders(currentTime)
+    }
+    return this.http.get<CategoriesResponse>(methodUrl, httpOptions);
+  }
+
+  public getTrending(max: number = 10) {
+    const methodUrl = API_URL + "/podcasts/trending";
+    const currentTime = new Date().getTime() / 1000;
+    let httpParams: HttpParams = new HttpParams({
+      fromObject: {
+        'max': max, 
+        'lang': 'en'
+      }
+    });  
+    httpParams = httpParams.append('cat', 'Sports');  
+    const httpOptions = {
+      headers: this.getHttpHeaders(currentTime),
+      params: httpParams
+    };
+    return this.http.get(methodUrl, httpOptions);
+  }
+
+  public getFeedById(id: number, max: number = 10) {
+    const methodUrl = API_URL + "/episodes/byfeedid";
+    const currentTime = new Date().getTime() / 1000;
+    let httpParams: HttpParams = new HttpParams({
+      fromObject: {
+        'id': id,
+        'max': max
+      }
+    });      
+    const httpOptions = {
+      headers: this.getHttpHeaders(currentTime),
+      params: httpParams
+    }
+    return this.http.get(methodUrl, httpOptions);
+  }
+}
+
+    export enum Status {
+    True = "true",
+    False = "false"
+}
+    
+    import { Status } from "./common";
+
+export interface Category {
+    id: number;
+    name: string;
+};
+
+export interface CategoriesResponse {
+    status: Status,
+    count: number,
+    description: string,
+    feeds: Category[]
+}
