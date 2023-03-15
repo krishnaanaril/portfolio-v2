@@ -6,6 +6,20 @@
     "icon": "https://krishnamohan.dev/logo.png",
     "items": [
         {
+            "id": "https://krishnamohan.dev/blog/audio-captions",
+            "url": "https://krishnamohan.dev/blog/audio-captions",
+            "title": "A failed app idea and some new learnings",
+            "summary": "If we could generate transcript files offline, how can we integrate it with audio files. I was thinking about something similar to external subtitle files used in video players. Came to know that it is possible with the help of TextTracks and WebVTT format. I did a small POC and it went well.",
+            "date_modified": "2023-03-05T00:00:00.000Z"
+        },
+        {
+            "id": "https://krishnamohan.dev/blog/sd-azure",
+            "url": "https://krishnamohan.dev/blog/sd-azure",
+            "title": "Run Stable Diffusion in Azure",
+            "summary": "Hardware requirement are pretty challenging for most of the machine learning needs, stable diffusion is no different. I've an Azure subscription can I make use of that?",
+            "date_modified": "2023-01-16T00:00:00.000Z"
+        },
+        {
             "id": "https://krishnamohan.dev/blog/story-morning-walk",
             "url": "https://krishnamohan.dev/blog/story-morning-walk",
             "title": "പ്രഭാത നടത്തം",
