@@ -2,13 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://krishnamohan.dev</id>
     <title>Krishna Mohan A M | RSS Feed</title>
-    <updated>2023-01-08T17:16:14.114Z</updated>
+    <updated>2023-03-15T03:09:22.900Z</updated>
     <generator>Feed for Node.js</generator>
     <link rel="alternate" href="https://krishnamohan.dev"/>
     <subtitle>Personal site of Krishna Mohan, who blogs about tech, football and trivia.</subtitle>
     <logo>https://krishnamohan.dev/logo.png</logo>
     <icon>https://krishnamohan.dev/favicon.png</icon>
     <rights>© 2021-present Krishna Mohan A M. All Rights Reserved.</rights>
+    <entry>
+        <title type="html"><![CDATA[A failed app idea and some new learnings]]></title>
+        <id>https://krishnamohan.dev/blog/audio-captions</id>
+        <link href="https://krishnamohan.dev/blog/audio-captions"/>
+        <updated>2023-03-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[If we could generate transcript files offline, how can we integrate it with audio files. I was thinking about something similar to external subtitle files used in video players. Came to know that it is possible with the help of TextTracks and WebVTT format. I did a small POC and it went well.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Run Stable Diffusion in Azure]]></title>
+        <id>https://krishnamohan.dev/blog/sd-azure</id>
+        <link href="https://krishnamohan.dev/blog/sd-azure"/>
+        <updated>2023-01-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hardware requirement are pretty challenging for most of the machine learning needs, stable diffusion is no different. I've an Azure subscription can I make use of that?]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[പ്രഭാത നടത്തം]]></title>
         <id>https://krishnamohan.dev/blog/story-morning-walk</id>

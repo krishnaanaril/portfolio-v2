@@ -4,7 +4,7 @@
         <title>Krishna Mohan A M | RSS Feed</title>
         <link>https://krishnamohan.dev</link>
         <description>Personal site of Krishna Mohan, who blogs about tech, football and trivia.</description>
-        <lastBuildDate>Sun, 08 Jan 2023 17:16:14 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Mar 2023 03:09:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -13,6 +13,20 @@
             <link>https://krishnamohan.dev</link>
         </image>
         <copyright>© 2021-present Krishna Mohan A M. All Rights Reserved.</copyright>
+        <item>
+            <title><![CDATA[A failed app idea and some new learnings]]></title>
+            <link>https://krishnamohan.dev/blog/audio-captions</link>
+            <guid>https://krishnamohan.dev/blog/audio-captions</guid>
+            <pubDate>Sun, 05 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[If we could generate transcript files offline, how can we integrate it with audio files. I was thinking about something similar to external subtitle files used in video players. Came to know that it is possible with the help of TextTracks and WebVTT format. I did a small POC and it went well.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Run Stable Diffusion in Azure]]></title>
+            <link>https://krishnamohan.dev/blog/sd-azure</link>
+            <guid>https://krishnamohan.dev/blog/sd-azure</guid>
+            <pubDate>Mon, 16 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hardware requirement are pretty challenging for most of the machine learning needs, stable diffusion is no different. I've an Azure subscription can I make use of that?]]></description>
+        </item>
         <item>
             <title><![CDATA[പ്രഭാത നടത്തം]]></title>
             <link>https://krishnamohan.dev/blog/story-morning-walk</link>
