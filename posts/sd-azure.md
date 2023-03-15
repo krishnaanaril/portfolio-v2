@@ -5,7 +5,7 @@ published: false
 publishedAt: 2023-01-16T00:00:00.000Z
 updatedAt: 2023-01-16T00:00:00.000Z
 category: tech
-image: 'banners/68'
+image: 'banners/69'
 keywords: 
     - azure
     - stable-diffusion
@@ -14,13 +14,13 @@ authors:
   - Krishna Mohan A M
 ---
 
-Hardware requirement are pretty challenging for most of the machine learning needs, stable diffusion is no different. Most of the SaaS offerings' pricing (Dreamstudio, Midjourney) depends on the number of images generated. My intention was totally differnt than just generating cool images, I want to play around with it and learn how it works. 
+Hardware requirement are pretty challenging for most of the machine learning needs, stable diffusion is no different. Most of the SaaS offerings' pricing (Dreamstudio, Midjourney) depends on the number of images generated. My intention was totally different than just generating cool images, I want to play around with it and learn how it works. 
 
 But wait, I've an Azure subscription. Can I make use of that? I googled around and found a [very informative blog](https://vladiliescu.net/stable-diffusion-web-ui-on-azure-ml/) to spin-off an Azure ML instance to run SD. I followed most of that blog with some tweaks for my needs. If you prefer to follow the original reference please do so.
 
 ## Prerequisites
 - Install [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) and its [ML extension](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-configure-cli?tabs=public)
-- Login to Azure from CLI and set the default subscritpion.
+- Login to Azure from CLI and set the default subscription.
     ```powershell
     # Log in with your Azure account. This will open webpage, login with your credentials.
     az login
@@ -47,7 +47,7 @@ But wait, I've an Azure subscription. Can I make use of that? I googled around a
     # Command to list compute instances with GPU
     az ml compute list-sizes -l eastus -w "ml-stable-diffusion" -g "rg-stable-diffusion" --output table --query "[?gpus > ``0``, v_cp_us > ``0``].{Name:name, Gpus:gpus, vCPU:v_cp_us}"
     ```
-  - Open an new `YAML` file, say `compute.yaml`, with the detials below. I tried with `Standard_NC6s_v3` firt, but due to my subscriptions limit, I had to switch to `Standard_NV6`. Refer the [pricing details](https://azure.microsoft.com/en-us/pricing/details/machine-learning/#NV-series) for better understanding.
+  - Open an new `YAML` file, say `compute.yaml`, with the details below. I tried with `Standard_NC6s_v3` firt, but due to my subscriptions limit, I had to switch to `Standard_NV6`. Refer the [pricing details](https://azure.microsoft.com/en-us/pricing/details/machine-learning/#NV-series) for better understanding.
       ```yaml
       $schema: https://azuremlschemas.azureedge.net/latest/computeInstance.schema.json 
 
