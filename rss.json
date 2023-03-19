@@ -6,6 +6,13 @@
     "icon": "https://krishnamohan.dev/logo.png",
     "items": [
         {
+            "id": "https://krishnamohan.dev/blog/flyio",
+            "url": "https://krishnamohan.dev/blog/flyio",
+            "title": "Deploying a nodejs app in fly.io and some struggles",
+            "summary": "This is a brief writeup about deploying a simple nodejs application in fly.io. While doing it I had to overcome few technical difficulties and if you can avoid it, it may help you to save some time.",
+            "date_modified": "2023-03-19T00:00:00.000Z"
+        },
+        {
             "id": "https://krishnamohan.dev/blog/audio-captions",
             "url": "https://krishnamohan.dev/blog/audio-captions",
             "title": "A failed app idea and some new learnings",
