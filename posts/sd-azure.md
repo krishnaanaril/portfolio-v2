@@ -1,7 +1,7 @@
 ---
 title: Run Stable Diffusion in Azure
 description: Hardware requirement are pretty challenging for most of the machine learning needs, stable diffusion is no different. I've an Azure subscription can I make use of that?
-published: false
+published: true
 publishedAt: 2023-01-16T00:00:00.000Z
 updatedAt: 2023-01-16T00:00:00.000Z
 category: tech

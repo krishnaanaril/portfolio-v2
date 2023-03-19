@@ -1,7 +1,7 @@
 ---
 title: A failed app idea and some new learnings
 description: If we could generate transcript files offline, how can we integrate it with audio files. I was thinking about something similar to external subtitle files used in video players. Came to know that it is possible with the help of TextTracks and WebVTT format. I did a small POC and it went well.
-published: false
+published: true
 publishedAt: 2023-03-05T00:00:00.000Z
 updatedAt: 2023-03-05T00:00:00.000Z
 category: tech
