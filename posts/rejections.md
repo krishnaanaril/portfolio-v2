@@ -28,6 +28,7 @@ Recently I read a [post by Austin Z. Henley](https://web.eecs.utk.edu/~azh/blog/
 9. Wells Fargo - Senior Software Engineer (March 2021)
 10. Nasdaq - Software Developer Senior Specialist (August 2022)
 11. Deloitte - Manager (.Net + Azure) (September 2022)
+12. Envestnet - Architect (November 2022)
 
 ## Competitive Exams
 
