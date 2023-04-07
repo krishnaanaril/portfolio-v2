@@ -4,7 +4,7 @@
         <title>Krishna Mohan A M | RSS Feed</title>
         <link>https://krishnamohan.dev</link>
         <description>Personal site of Krishna Mohan, who blogs about tech, football and trivia.</description>
-        <lastBuildDate>Sun, 19 Mar 2023 17:51:18 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 07 Apr 2023 10:41:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -13,6 +13,13 @@
             <link>https://krishnamohan.dev</link>
         </image>
         <copyright>© 2021-present Krishna Mohan A M. All Rights Reserved.</copyright>
+        <item>
+            <title><![CDATA[Thoughts on -10x Engineer]]></title>
+            <link>https://krishnamohan.dev/blog/-10x</link>
+            <guid>https://krishnamohan.dev/blog/-10x</guid>
+            <pubDate>Wed, 05 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[My thoughts on the blog post 'How to be a -10x engineer', which was quite popular in Hacker News.]]></description>
+        </item>
         <item>
             <title><![CDATA[Deploying a nodejs app in fly.io and some struggles]]></title>
             <link>https://krishnamohan.dev/blog/flyio</link>
