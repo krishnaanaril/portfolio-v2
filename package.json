@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "build:prod": "next build && next export",
+    "build:prod": "next build",
     "deploy": "npm run build:prod && touch out/.nojekyll && cp CNAME out/CNAME && git add out/ && git commit -m \"Deploy\" && git subtree push --prefix out upstream gh-pages"
   },
   "dependencies": {

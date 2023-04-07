@@ -5,6 +5,7 @@ const withPWA = require('next-pwa')({
 })
 
 const nextConfig = {
+  output: 'export',
   reactStrictMode: true,
   swcMinify: true,
   trailingSlash: true,
