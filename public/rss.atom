@@ -2,13 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://krishnamohan.dev</id>
     <title>Krishna Mohan A M | RSS Feed</title>
-    <updated>2023-03-15T03:09:22.900Z</updated>
+    <updated>2023-04-07T10:41:42.083Z</updated>
     <generator>Feed for Node.js</generator>
     <link rel="alternate" href="https://krishnamohan.dev"/>
     <subtitle>Personal site of Krishna Mohan, who blogs about tech, football and trivia.</subtitle>
     <logo>https://krishnamohan.dev/logo.png</logo>
     <icon>https://krishnamohan.dev/favicon.png</icon>
     <rights>© 2021-present Krishna Mohan A M. All Rights Reserved.</rights>
+    <entry>
+        <title type="html"><![CDATA[Thoughts on -10x Engineer]]></title>
+        <id>https://krishnamohan.dev/blog/-10x</id>
+        <link href="https://krishnamohan.dev/blog/-10x"/>
+        <updated>2023-04-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[My thoughts on the blog post 'How to be a -10x engineer', which was quite popular in Hacker News.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Deploying a nodejs app in fly.io and some struggles]]></title>
+        <id>https://krishnamohan.dev/blog/flyio</id>
+        <link href="https://krishnamohan.dev/blog/flyio"/>
+        <updated>2023-03-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is a brief writeup about deploying a simple nodejs application in fly.io. While doing it I had to overcome few technical difficulties and if you can avoid it, it may help you to save some time.]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A failed app idea and some new learnings]]></title>
         <id>https://krishnamohan.dev/blog/audio-captions</id>
