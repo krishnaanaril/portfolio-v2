@@ -23,8 +23,13 @@ export function getAllDocs() {
     return docs;
 }
 
-export function getAllDocsDescending() {
+export function getPublishedDocs() {
     return getAllDocs()
+        .filter(doc => doc.meta.published == true);
+}
+
+export function getPublishedDocsDescending() {
+    return getPublishedDocs()        
         .sort((a, b) => {
             if (a.meta.publishedAt < b.meta.publishedAt) {
                 return 1;

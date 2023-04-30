@@ -1,9 +1,9 @@
 import BlogCard from '../components/blog-card';
-import { getAllDocsDescending } from '../lib/posts';
+import { getPublishedDocsDescending } from '../lib/posts';
 import Head from 'next/head';
 
 export async function getStaticProps() {
-  const recentSixBlogs = getAllDocsDescending().map(doc => ({ id: doc.id, ...doc.meta })).slice(0, 6);
+  const recentSixBlogs = getPublishedDocsDescending().map(doc => ({ id: doc.id, ...doc.meta })).slice(0, 6);
   return {
     props: {
       recentSixBlogs,
