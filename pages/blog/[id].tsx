@@ -6,7 +6,7 @@ export default function Post({ id, meta, content }: { id: string, meta: any, con
   return (
     <>
       <Head>
-        <title>{meta?.title}</title>
+        <title>{`${meta?.title} | Krishna Mohan A M`}</title>
         {/* Primary Meta Tags */}
         <meta name="title" content={meta?.title}/>
         <meta name="description" content={meta?.description}/>

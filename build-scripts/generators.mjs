@@ -55,15 +55,19 @@ export function generateSitemap() {
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://krishnamohan.dev</loc>
+    <lastmod>${new Date().toISOString()}</lastmod>
   </url>
   <url>
     <loc>https://krishnamohan.dev/blogs</loc>
+    <lastmod>${new Date().toISOString()}</lastmod>
   </url>
   <url>
     <loc>https://krishnamohan.dev/projects</loc>
+    <lastmod>${new Date().toISOString()}</lastmod>
   </url>
   <url>
     <loc>https://krishnamohan.dev/about</loc>
+    <lastmod>${new Date().toISOString()}</lastmod>
   </url>
 ${blogDetails.map(addPage).join('\n')}
 </urlset>`
