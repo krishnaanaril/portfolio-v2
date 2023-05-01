@@ -23,7 +23,7 @@ export default function BlogEn({ children, meta: pageMeta }: { children: string,
                 </div>
                 <div className="prose dark:prose-invert lg:prose-xl md:prose-lg max-w-screen-md mx-auto" dangerouslySetInnerHTML={{ __html: children }} />
             </article>
-            <SocialShare></SocialShare>
+            {/* <SocialShare></SocialShare> */}
         </>
     );
 }
