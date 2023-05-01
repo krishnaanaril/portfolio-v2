@@ -32,8 +32,8 @@ export default function About() {
                         <Image src="/images/dp.webp" alt="Krishna Mohan's DP" className="m-auto w-64 h-64 rounded-full" quality="100" width={400} height={400} />
                     </div>
                     <div className="text-center">
-                        <h2>I'm a Senior Full-Stack Engineer & Microsoft Certified Azure Solutions Architect</h2>
-                        <p>Right now I'm working as an <strong>Associate Project Manager</strong> at EY in Kochi, Kerala. </p>
+                        <h2>I&#39;m a Senior Full-Stack Engineer & Microsoft Certified Azure Solutions Architect</h2>
+                        <p>Right now I&#39;m working as an <strong>Associate Project Manager</strong> at EY in Kochi, Kerala. </p>
                     </div>
                 </div>
             </article>
