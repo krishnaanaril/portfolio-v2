@@ -21,6 +21,11 @@ export function getAllDocs() {
   return docs;
 }
 
+export function getPublishedDocs() {
+  return getAllDocs()
+      .filter(doc => doc.meta.published == true);
+}
+
 export function addPage(id) {
   return `  <url>
     <loc>${`https://krishnamohan.dev/blog/${id}/`}</loc>
@@ -30,8 +35,8 @@ export function addPage(id) {
     </url>`
 }
 
-export function getAllDocsDescending() {
-  return getAllDocs()
+export function getPublishedDocsDescending() {
+  return getPublishedDocs()
     .sort((a, b) => {
       if (a.meta.publishedAt < b.meta.publishedAt) {
         return 1;
@@ -44,7 +49,7 @@ export function getAllDocsDescending() {
 }
 
 export function generateSitemap() {
-  const blogDetails = getAllDocs()
+  const blogDetails = getPublishedDocs()
     .map(blog => blog.id);
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -66,7 +71,7 @@ ${blogDetails.map(addPage).join('\n')}
 }
 
 export function generateRssFeed() {
-  const blogDetails = getAllDocsDescending().map(doc => ({id: doc.id, ...doc.meta}));
+  const blogDetails = getPublishedDocsDescending().map(doc => ({id: doc.id, ...doc.meta}));
   const site_url = 'https://krishnamohan.dev';
 
   const feedOptions = {

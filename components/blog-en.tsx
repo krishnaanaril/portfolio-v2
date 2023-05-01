@@ -1,4 +1,5 @@
 import getFormattedDate from '../lib/helper';
+import Link from 'next/link';
 
 export default function BlogEn({ children, meta: pageMeta }: {children: string, meta: any}) {
     return (
@@ -6,7 +7,9 @@ export default function BlogEn({ children, meta: pageMeta }: {children: string, 
             <div>
                 <div aria-label="Blog tags/keywords" className="pt-8 flex flex-row justify-center">
                     {pageMeta.keywords.map((keyword: string) => (
-                        <div key={keyword} className="bg-gray-300 dark:bg-gray-700 border border-gray-400 ml-2 mr-2 pb-2 pl-4 pr-4 pt-2 text-sm align-baseline rounded-full">{keyword}</div>
+                        <Link key={keyword} href={`/blogs/tag/${keyword}`} className="bg-gray-300 dark:bg-gray-700 border border-gray-400 ml-2 mr-2 pb-2 pl-4 pr-4 pt-2 text-sm align-baseline rounded-full">
+                            {keyword}
+                        </Link>
                     ))}
                 </div>
                 <div className="max-w-screen-lg mx-auto">
