@@ -11,7 +11,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }: { params: { tag: string } }) {
     const blogsByTags = await getPublishedDocsDescending()
-        .filter(doc => doc.meta.keywords.includes(params.tag))
+        .filter(doc => doc.meta.keywords.map((word: string) => word?.toLowerCase()).includes(params.tag))
         .map(doc => ({ id: doc.id, ...doc.meta }));    
     return {
         props: {

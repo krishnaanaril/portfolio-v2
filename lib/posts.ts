@@ -62,7 +62,7 @@ export function getAllPostIds() {
 }
 
 export function getAllCategories() {
-    const categories = getPublishedDocs().map(doc => doc.meta.category);
+    const categories = getPublishedDocs().map(doc => doc.meta.category?.toLowerCase());
     const nonEmptyCategories = categories.filter(e => typeof e === 'string' && e);
     const uniqueCategories = Array.from(new Set(nonEmptyCategories));
     return uniqueCategories.map((category) => {
@@ -75,7 +75,7 @@ export function getAllCategories() {
 }
 
 export function getAllTags() {    
-    const tags = getPublishedDocs().flatMap(doc => doc.meta?.keywords?.map((word:string) => word?.trim()));   
+    const tags = getPublishedDocs().flatMap(doc => doc.meta?.keywords?.map((word:string) => word?.trim().toLowerCase()));   
     const nonEmptyTags = tags.filter(e => typeof e === 'string' && e); 
     const uniqueTags = Array.from(new Set(nonEmptyTags));
     return uniqueTags.map((tag) => {

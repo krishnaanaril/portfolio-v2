@@ -12,7 +12,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }: { params: { category: string } }) {
     const blogsByCategory = await getPublishedDocsDescending()
-        .filter(doc => doc.meta.category == params.category)
+        .filter(doc => doc.meta.category?.toLowerCase() == params.category)
         .map(doc => ({ id: doc.id, ...doc.meta }));     
     return {
         props: {
