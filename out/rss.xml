@@ -4,7 +4,7 @@
         <title>Krishna Mohan A M | RSS Feed</title>
         <link>https://krishnamohan.dev</link>
         <description>Personal site of Krishna Mohan, who blogs about tech, football and trivia.</description>
-        <lastBuildDate>Mon, 01 May 2023 16:15:14 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 07 May 2023 19:29:24 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -13,6 +13,13 @@
             <link>https://krishnamohan.dev</link>
         </image>
         <copyright>© 2021-present Krishna Mohan A M. All Rights Reserved.</copyright>
+        <item>
+            <title><![CDATA[Angular 16 - What you need to know]]></title>
+            <link>https://krishnamohan.dev/blog/angular-16</link>
+            <guid>https://krishnamohan.dev/blog/angular-16</guid>
+            <pubDate>Sat, 06 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Yesterday Angular team released version 16 of their framework and they've termed it as the biggest release since its inception. Is it? Let's see.]]></description>
+        </item>
         <item>
             <title><![CDATA[Thoughts on -10x Engineer]]></title>
             <link>https://krishnamohan.dev/blog/-10x</link>
