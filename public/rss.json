@@ -6,6 +6,13 @@
     "icon": "https://krishnamohan.dev/logo.png",
     "items": [
         {
+            "id": "https://krishnamohan.dev/blog/angular-16",
+            "url": "https://krishnamohan.dev/blog/angular-16",
+            "title": "Angular 16 - What you need to know",
+            "summary": "Yesterday Angular team released version 16 of their framework and they've termed it as the biggest release since its inception. Is it? Let's see.",
+            "date_modified": "2023-05-06T00:00:00.000Z"
+        },
+        {
             "id": "https://krishnamohan.dev/blog/-10x",
             "url": "https://krishnamohan.dev/blog/-10x",
             "title": "Thoughts on -10x Engineer",
