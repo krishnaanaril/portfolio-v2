@@ -21,14 +21,15 @@ Is it? Let's see.
 
 Angular's current implementation of change detection is bit inefficient as it is based on `zone.js`. If there is any change in parent component, it will re-render all its child components. 
 
-So with this release Angular team introduced a new reactivity model - `Signals` why may phase out `zone.js` in the upcoming releases. The concept of `Signal` is not novel, it is already available in other frameworks like [Preact](https://preactjs.com/guide/v10/signals/) and [Solidjs](https://www.solidjs.com/tutorial/introduction_signals). Right now, it is in developer preview and not recommended for production. It is not a replacement for rxjs, but you can find an immediate use of it by replacing [asyncpipe](https://angular.io/api/common/AsyncPipe) in templates. 
+So with this release Angular team introduced a new reactivity model - `Signals` which may phase out `zone.js` in the upcoming releases. The concept of `Signal` is not novel, it is already available in other frameworks like [Preact](https://preactjs.com/guide/v10/signals/) and [Solidjs](https://www.solidjs.com/tutorial/introduction_signals). Right now, it is in developer preview and not recommended for production. It is not a replacement for rxjs, but you can find an immediate use of it by replacing [async pipe](https://angular.io/api/common/AsyncPipe) in templates. 
 
 Here are the few functions that'll help you to implement signals:
-    - `signal()`: will help you to create a writable signal whose value you can set, update and mutate. 
-    - `computed()`: will help you to derive or compose value from other existing signals. It will keep track of the signals referenced in the computation.
-    - `effect()`: will help you to add side effects. This passed function will be invoked every time the signal referenced inside it changes.
-    - `toSignal()`: will help you to convert an observable to signal. 
-    - `toObservable()`: will help you to convert a signal to an observable.
+
+- `signal()`: will help you to create a writable signal whose value you can set, update and mutate. 
+- `computed()`: will help you to derive or compose value from other existing signals. It will keep track of the signals referenced in the computation.
+- `effect()`: will help you to add side effects. This passed function will be invoked every time the signal referenced inside it changes.
+- `toSignal()`: will help you to convert an observable to signal. 
+- `toObservable()`: will help you to convert a signal to an observable.
 
 If you are coming from reactjs background, you may see some similarity with `useState()` hook. But both are entirely different. Major differences are:
  - Automatic dependency tracking in signals
@@ -50,7 +51,7 @@ data$ = http.get('…').pipe(takeUntilDestroyed());
 
 ## Improved server side rendering (SSR)
 
-A new function is introduced `provideClientHydration` to enable the non-destructive Angular hydration, along with the provision for http caching. With non-destructive hydration, Angular has the capability of reusing pre-existing DOM structures on the client-side that were initially rendered by the server. This prevents the flicker that occurs when the page is rendered and ready for interaction by users.
+A new function `provideClientHydration` is introduced to enable the non-destructive Angular hydration, along with the provision for http caching. With non-destructive hydration, Angular has the capability of reusing pre-existing DOM structures on the client-side that were initially rendered by the server. This prevents the flicker that occurs when the page is rendered and ready for interaction by users.
 
 With the help of http caching,  requests done on the server side are cached and accessible in client side. This is the default behavior, but you can opt out if required.
 
@@ -133,6 +134,9 @@ You'll get compile-time error, if you marked an input as required but not provid
 
 This will result in type narrowing. An example is given below
 
+```typescript
+const foos: Array<'foo'> = queryList.filter((item): item is 'foo' => item === 'foo');
+```
 
 
 
