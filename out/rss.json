@@ -6,6 +6,20 @@
     "icon": "https://krishnamohan.dev/logo.png",
     "items": [
         {
+            "id": "https://krishnamohan.dev/blog/angular-19-new-diagnostic",
+            "url": "https://krishnamohan.dev/blog/angular-19-new-diagnostic",
+            "title": "Angular 19 | Diagnostic for unused standalone imports",
+            "summary": "Angular v19 introduces a new diagnostic tool that reports cases where a declaration is present in the imports array but isn't being used anywhere in the application.",
+            "date_modified": "2024-09-27T00:00:00.000Z"
+        },
+        {
+            "id": "https://krishnamohan.dev/blog/nps",
+            "url": "https://krishnamohan.dev/blog/nps",
+            "title": "Notes on NPS",
+            "summary": "This is supposed to be a beginner's guide to investing in NPS.",
+            "date_modified": "2023-07-02T00:00:00.000Z"
+        },
+        {
             "id": "https://krishnamohan.dev/blog/angular-16",
             "url": "https://krishnamohan.dev/blog/angular-16",
             "title": "Angular 16 - What you need to know",
