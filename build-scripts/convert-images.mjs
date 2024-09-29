@@ -4,7 +4,7 @@ import fs from 'fs';
 
 const 
     outputFolder = "./public/banners",            // Output folder
-    images = './public/banners/*.{jpeg,jpg,png}';        // PNG & JPEG images
+    images = './public/banners/*.{jpeg,jpg,png,PNG}';        // PNG & JPEG images
 
 
 
