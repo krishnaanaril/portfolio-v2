@@ -39,8 +39,8 @@ To control this new diagnostic feature, developers can use the following configu
 The unusedStandaloneImports option accepts three values, each dictating how the diagnostic should be treated:
 
 - `warning`: This is the default setting. The diagnostic is treated as a warning, which means it will not fail the compilation process. It serves as a gentle reminder to clean up any unused imports.
-    ![](/images/ang19_01.png)
+    ![](/images/ang19_01.PNG)
 - `error`: When set to error, the diagnostic is treated as a hard error. This will cause the compilation to fail, enforcing a stricter code quality standard.
-    ![](/images/ang19_03.png)
+    ![](/images/ang19_03.PNG)
 - `suppress`: If you choose to suppress the diagnostic, it will be ignored altogether. This might be useful in scenarios where you are aware of the unused imports and have a specific reason to keep them.
-    ![](/images/ang19_02.png)
+    ![](/images/ang19_02.PNG)
