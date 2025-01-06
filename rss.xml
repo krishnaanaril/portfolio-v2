@@ -4,7 +4,7 @@
         <title>Krishna Mohan A M | RSS Feed</title>
         <link>https://krishnamohan.dev</link>
         <description>Personal site of Krishna Mohan, who blogs about tech, football and trivia.</description>
-        <lastBuildDate>Sun, 29 Sep 2024 17:27:54 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 06 Jan 2025 02:38:06 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -13,6 +13,13 @@
             <link>https://krishnamohan.dev</link>
         </image>
         <copyright>© 2021-present Krishna Mohan A M. All Rights Reserved.</copyright>
+        <item>
+            <title><![CDATA[Understanding the nuances of C# Collections]]></title>
+            <link>https://krishnamohan.dev/blog/dotnet-collecton</link>
+            <guid>https://krishnamohan.dev/blog/dotnet-collecton</guid>
+            <pubDate>Sun, 05 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[This article is based on .NET 9 and C# 13. I aim to cover the behaviors of common collections within the `System.Collections.Generic` namespace.]]></description>
+        </item>
         <item>
             <title><![CDATA[Angular 19 | Diagnostic for unused standalone imports]]></title>
             <link>https://krishnamohan.dev/blog/angular-19-new-diagnostic</link>
