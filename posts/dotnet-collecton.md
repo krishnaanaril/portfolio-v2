@@ -1,11 +1,11 @@
 ---
-title: Understanding C# Collections
+title: Understanding the nuances of C# Collections
 description: This article is based on .NET 9 and C# 13. I aim to cover the behaviors of common collections within the `System.Collections.Generic` namespace.
 published: true
 publishedAt: 2025-01-05T00:00:00.000Z
 updatedAt: 2025-01-05T00:00:00.000Z
 category: tech
-image: 'banners/72'
+image: 'banners/76'
 keywords: 
     - dotnet
     - performance    
@@ -48,6 +48,8 @@ internal static ReadOnlySpan<int> Primes =>
 Now, with the size being 7, when we insert the 8th item into the `Dictionary`, .NET needs to resize the underlying container. For resizing, .NET first computes twice the current count and then finds the first prime number from the array that is larger than this value. In this example, it is 7 * 2 = 14, and the next prime in the list is 17. Therefore, after inserting the 8th item, the capacity of the dictionary will be 17.
 
 Also, if you know the size of the data in advance, specifying the capacity can provide a minor performance boost. Please see the benchmark results below for `Dictionary` insertion.
+
+![](/images/Benchmark.PNG)*Gist: Benchmark results for Dictionary insert*
 
 `HashSet` and `OrderedDictionary` also behave in the same way with respect to capacity and resizing.
 
