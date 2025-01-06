@@ -6,6 +6,13 @@
     "icon": "https://krishnamohan.dev/logo.png",
     "items": [
         {
+            "id": "https://krishnamohan.dev/blog/dotnet-collecton",
+            "url": "https://krishnamohan.dev/blog/dotnet-collecton",
+            "title": "Understanding the nuances of C# Collections",
+            "summary": "This article is based on .NET 9 and C# 13. I aim to cover the behaviors of common collections within the `System.Collections.Generic` namespace.",
+            "date_modified": "2025-01-05T00:00:00.000Z"
+        },
+        {
             "id": "https://krishnamohan.dev/blog/angular-19-new-diagnostic",
             "url": "https://krishnamohan.dev/blog/angular-19-new-diagnostic",
             "title": "Angular 19 | Diagnostic for unused standalone imports",
