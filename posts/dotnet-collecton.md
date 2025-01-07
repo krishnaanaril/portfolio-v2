@@ -30,7 +30,7 @@ dict.Add(1, 4);  // Calls underlying private method TryInsert with behavior Thro
 
 ## The Curious case of 'Capacity' and 'Count'
 
-The `Dictionary` also exposes two properties: `Count` and Capac`ity. `Count` denotes the number of key-value pairs in the dictionary, and `Capacity` denotes the size of the underlying container that holds the dictionary. The `Capacity` property was only exposed from .NET 9 and is not available in older versions of .NET. We can specify the value for `Capacity` in the constructor: `Dictionary<int, int> dict = new Dictionary<int, int>(5);`, which will create an underlying container of size 7. **Why size 7?** Initially, I was puzzled too, so I checked the source code of the Dictionary implementation.
+The `Dictionary` also exposes two properties: `Count` and `Capacity`. `Count` denotes the number of key-value pairs in the dictionary, and `Capacity` denotes the size of the underlying container that holds the dictionary. The `Capacity` property was only exposed from .NET 9 and is not available in older versions of .NET. We can specify the value for `Capacity` in the constructor: `Dictionary<int, int> dict = new Dictionary<int, int>(5);`, which will create an underlying container of size 7. **Why size 7?** Initially, I was puzzled too, so I checked the source code of the Dictionary implementation.
 
 The size is 7 because .NET uses a [prime array](https://github.com/dotnet/runtime/blob/main/src/libraries/System.Private.CoreLib/src/System/Collections/HashHelpers.cs#L31), and the code selects the smallest prime number from the array that is larger than the given capacity. Here is the prime array for reference:
 
