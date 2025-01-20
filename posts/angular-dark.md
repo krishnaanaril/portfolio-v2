@@ -17,112 +17,93 @@ authors:
 style manager: https://github.com/angular/components/blob/main/material.angular.io/src/app/shared/style-manager/style-manager.ts
 
 ```javascript
-import {
-  ChangeDetectionStrategy,
-  Component,
-  OnDestroy,
-  OnInit,
-  ViewEncapsulation,
-} from '@angular/core';
-import {StyleManager} from './style-manager';
-import {DocsSiteTheme, ThemeStorage} from './theme-storage';
-import {MatButtonModule} from '@angular/material/button';
-import {MatIconModule} from '@angular/material/icon';
-import {MatMenuModule} from '@angular/material/menu';
-import {MatTooltipModule} from '@angular/material/tooltip';
-import {ActivatedRoute, ParamMap} from '@angular/router';
-import {Subscription} from 'rxjs';
-import {map} from 'rxjs/operators';
-import {LiveAnnouncer} from '@angular/cdk/a11y';
+import { Component, effect, OnInit, signal } from '@angular/core';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { MatTooltipModule } from '@angular/material/tooltip';
+import { StyleManager } from '../theme-picker/style-manager';
 
 @Component({
-  selector: 'theme-picker',
-  templateUrl: 'theme-picker.component.html',
-  styleUrls: ['theme-picker.component.css'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
-  encapsulation: ViewEncapsulation.None,
-  standalone: true,
-  imports: [MatButtonModule, MatTooltipModule, MatMenuModule, MatIconModule]
+  selector: 'app-mode-picker',
+  imports: [MatButtonModule, MatTooltipModule, MatIconModule],
+  templateUrl: './mode-picker.component.html',
+  styleUrl: './mode-picker.component.css'
 })
-export class ThemePicker implements OnInit, OnDestroy {
-  private _queryParamSubscription = Subscription.EMPTY;
-  currentTheme: DocsSiteTheme | undefined;
+export class ModePickerComponent implements OnInit {
 
-  // The below colors need to align with the themes defined in theme-picker.scss
-  themes: DocsSiteTheme[] = [
-    {
-      color: '#ffd9e1',
-      displayName: 'Rose & Red',
-      name: 'rose-red',
-      background: '#fffbff',
-    },
-    {
-      color: '#d7e3ff',
-      displayName: 'Azure & Blue',
-      name: 'azure-blue',
-      background: '#fdfbff',
-      isDefault: true,
-    },
-    {
-      color: '#810081',
-      displayName: 'Magenta & Violet',
-      name: 'magenta-violet',
-      background: '#1e1a1d',
-    },
-    {
-      color: '#004f4f',
-      displayName: 'Cyan & Orange',
-      name: 'cyan-orange',
-      background: '#191c1c',
-    },
-  ];
+  mode = signal('light');
+  static storageKey = 'docs-theme-storage-current-name';
 
-  constructor(public styleManager: StyleManager,
-              private _themeStorage: ThemeStorage,
-              private _activatedRoute: ActivatedRoute,
-              private liveAnnouncer: LiveAnnouncer) {
-    const themeName = this._themeStorage.getStoredThemeName();
-    if (themeName) {
-      this.selectTheme(themeName);
-    } else {
-      this.themes.find(themes => {
-        if (themes.isDefault === true) {
-          this.selectTheme(themes.name);
-        }
-      });
-    }
-  }
-
-  ngOnInit() {
-    this._queryParamSubscription = this._activatedRoute.queryParamMap
-      .pipe(map((params: ParamMap) => params.get('theme')))
-      .subscribe((themeName: string | null) => {
-        if (themeName) {
-          this.selectTheme(themeName);
-        }
+  /**
+   *
+   */
+  constructor(public styleManager: StyleManager) {
+    effect(() => {      
+      if (this.mode() == 'dark') {
+        this.styleManager.setStyle('theme', `cyan-orange.css`);
+      } else {
+        this.styleManager.setStyle('theme', `azure-blue.css`);
+      }
     });
+
   }
 
-  ngOnDestroy() {
-    this._queryParamSubscription.unsubscribe();
-  }
-
-  selectTheme(themeName: string) {
-    const theme = this.themes.find(currentTheme => currentTheme.name === themeName) ||
-      this.themes.find(currentTheme => currentTheme.isDefault)!;
-
-    this.currentTheme = theme;
-
-    if (theme.isDefault) {
-      this.styleManager.removeStyle('theme');
-    } else {
-      this.styleManager.setStyle('theme', `${theme.name}.css`);
+  ngOnInit(): void {
+    const currentTheme = this.getStoredThemeName() ?? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    if (currentTheme) {
+      this.mode.set(currentTheme);
     }
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+      const newColorScheme = event.matches ? "dark" : "light";
+      if (event.matches) {
+        this.mode.set('dark');
+      } else {
+        this.mode.set('light');
+      }
+    });
 
-    if (this.currentTheme) {
-      this.liveAnnouncer.announce(`${theme.displayName} theme selected.`, 'polite', 3000);
-      this._themeStorage.storeTheme(this.currentTheme);
+  }
+
+  changeMode() {    
+    if (this.mode() == 'dark')
+      this.mode.set('light');    
+    else
+      this.mode.set('dark');
+    this.storeTheme(this.mode());
+  }
+
+  storeTheme(theme: string) {
+    try {
+      window.localStorage[ModePickerComponent.storageKey] = theme;
+    } catch { }
+  }
+
+  getStoredThemeName(): string | null {
+    try {
+      return window.localStorage[ModePickerComponent.storageKey] || null;
+    } catch {
+      return null;
     }
   }
+
+  clearStorage() {
+    try {
+      window.localStorage.removeItem(ModePickerComponent.storageKey);
+    } catch { }
+  }
+
 }
+
+<button mat-icon-button (click)="changeMode()">
+    @if (mode() == 'dark') {
+    <mat-icon>
+        light_mode
+    </mat-icon>
+    } @else {
+    <mat-icon>
+        dark_mode
+    </mat-icon>
+    }
+
+</button>
 ```
