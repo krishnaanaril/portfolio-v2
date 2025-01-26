@@ -6,6 +6,13 @@
     "icon": "https://krishnamohan.dev/logo.png",
     "items": [
         {
+            "id": "https://krishnamohan.dev/blog/angular-dark",
+            "url": "https://krishnamohan.dev/blog/angular-dark",
+            "title": "Revisiting Angular and Material Theming | Implementing Light-Dark Mode",
+            "summary": "Learn how to create a light-dark mode switch in Angular with Material Theming. This guide walks you through designing a custom theme, generating theme files, and seamlessly integrating them into your project.",
+            "date_modified": "2025-01-26T00:00:00.000Z"
+        },
+        {
             "id": "https://krishnamohan.dev/blog/dotnet-collecton",
             "url": "https://krishnamohan.dev/blog/dotnet-collecton",
             "title": "Understanding the nuances of C# Collections",

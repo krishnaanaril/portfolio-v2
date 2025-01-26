@@ -4,7 +4,7 @@
         <title>Krishna Mohan A M | RSS Feed</title>
         <link>https://krishnamohan.dev</link>
         <description>Personal site of Krishna Mohan, who blogs about tech, football and trivia.</description>
-        <lastBuildDate>Fri, 10 Jan 2025 05:06:44 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 26 Jan 2025 17:13:06 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -13,6 +13,13 @@
             <link>https://krishnamohan.dev</link>
         </image>
         <copyright>© 2021-present Krishna Mohan A M. All Rights Reserved.</copyright>
+        <item>
+            <title><![CDATA[Revisiting Angular and Material Theming | Implementing Light-Dark Mode]]></title>
+            <link>https://krishnamohan.dev/blog/angular-dark</link>
+            <guid>https://krishnamohan.dev/blog/angular-dark</guid>
+            <pubDate>Sun, 26 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Learn how to create a light-dark mode switch in Angular with Material Theming. This guide walks you through designing a custom theme, generating theme files, and seamlessly integrating them into your project.]]></description>
+        </item>
         <item>
             <title><![CDATA[Understanding the nuances of C# Collections]]></title>
             <link>https://krishnamohan.dev/blog/dotnet-collecton</link>
